@@ -1,0 +1,119 @@
+{
+  "accessed": "2026-11-12",
+  "claims": [
+    {
+      "id": "duo-01",
+      "claim": "iPhone Duo adalah iPhone lipat dengan layar dalam 7,6 inci dan layar luar 5,4 inci.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/",
+          "publisher": "Apple Newsroom",
+          "title": "Apple unveils iPhone Duo"
+        }
+      ],
+      "shot_ids": [],
+      "visualization_type": "conceptual",
+      "caveat": "Ukuran bodi dalam mm tidak dipublikasikan; model memakai ukuran perkiraan."
+    },
+    {
+      "id": "duo-02",
+      "claim": "Engselnya terdiri dari lebih dari 100 komponen dan menahan bagian tengah layar tetap rata saat terbuka.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/",
+          "publisher": "Apple Newsroom",
+          "title": "Apple unveils iPhone Duo"
+        }
+      ],
+      "shot_ids": [],
+      "visualization_type": "conceptual",
+      "caveat": "Isi engsel tidak dirinci Apple; roda gigi dan penopang di model adalah ilustrasi."
+    },
+    {
+      "id": "duo-03",
+      "claim": "Engsel memiliki susunan magnet untuk menutup.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/",
+          "publisher": "Apple Newsroom",
+          "title": "Apple unveils iPhone Duo"
+        }
+      ],
+      "shot_ids": [],
+      "visualization_type": "conceptual",
+      "caveat": "Letak dan jumlah magnet adalah ilustrasi."
+    },
+    {
+      "id": "duo-04",
+      "claim": "Penutup engsel dicetak 3D dari titanium daur ulang 100 persen.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/",
+          "publisher": "Apple Newsroom",
+          "title": "Apple unveils iPhone Duo"
+        }
+      ],
+      "shot_ids": [],
+      "visualization_type": "illustrative",
+      "caveat": ""
+    },
+    {
+      "id": "duo-05",
+      "claim": "Ada kaca berkekuatan tinggi di atas dan di bawah panel lipat.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/",
+          "publisher": "Apple Newsroom",
+          "title": "Apple unveils iPhone Duo"
+        }
+      ],
+      "shot_ids": [],
+      "visualization_type": "conceptual",
+      "caveat": "Ketebalan lapisan dibesar-besarkan agar terbaca."
+    },
+    {
+      "id": "duo-06",
+      "claim": "Perekat khusus membuat lapisan-lapisan layar saling bergeser sehingga tegangan tekuk berkurang.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/",
+          "publisher": "Apple Newsroom",
+          "title": "Apple unveils iPhone Duo"
+        }
+      ],
+      "shot_ids": [],
+      "visualization_type": "conceptual",
+      "caveat": "Besar pergeseran di model adalah akibat ketebalan yang dibesar-besarkan, bukan ukuran nyata."
+    },
+    {
+      "id": "duo-07",
+      "claim": "Di bagian bawah susunan layar ada pelat titanium, dan penutup atasnya polimer bertekstur nano.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/",
+          "publisher": "Apple Newsroom",
+          "title": "Apple unveils iPhone Duo"
+        }
+      ],
+      "shot_ids": [],
+      "visualization_type": "conceptual",
+      "caveat": "Urutan persis lapisan perekat tidak dirinci Apple."
+    },
+    {
+      "id": "duo-08",
+      "claim": "Layar iPhone Duo tahan dilipat sekian ratus ribu kali.",
+      "status": "unverified",
+      "sources": [],
+      "shot_ids": [],
+      "visualization_type": "illustrative",
+      "caveat": "Apple tidak menyebut jumlah lipatan. Jangan dinarasikan."
+    }
+  ]
+}

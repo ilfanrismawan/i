@@ -1,0 +1,72 @@
+{
+  "blender": "5.3.0",
+  "tests": {
+    "exterior fold=1 -> right pivot Y rotation deg (expect -90)": -90.0,
+    "exterior fold=1 -> closed size x,z mm (expect about 12.6 thick, 78 tall)": [
+      12.6,
+      78.0
+    ],
+    "exterior fold=1 -> gap between inner screens mm (must be > 0)": 2.3,
+    "exterior fold=0 -> open size x,y mm": [
+      159.8,
+      118.0
+    ],
+    "layers fold=1 -> right-end stagger cover vs titanium (expect about 0.64 = 0.203*pi)": 0.638,
+    "layers fold=1 -> left ends stay level, difference (expect 0)": 0.0,
+    "layers fold=1 -> panel inner bend radius (expect about 0.30)": 0.296,
+    "layers fold=0.5 -> panel is an L/quarter shape: width, height": [
+      2.2,
+      0.86
+    ],
+    "hinge mesh parts (conceptual; Apple says 100+ components)": 106,
+    "hinge fold=1 -> pivots L,R deg (expect 90, -90)": [
+      90.0,
+      -90.0
+    ],
+    "hinge fold=1 -> centre support z (expect -0.19)": -0.19,
+    "hinge fold=1 -> gap between facing magnets (must be > 0)": 0.22,
+    "hinge fold=1 -> magnets at same height, difference (expect 0)": 0.0
+  },
+  "renders": [
+    {
+      "file": "previews/duo_exterior_open.png",
+      "exists": true
+    },
+    {
+      "file": "previews/duo_exterior_half.png",
+      "exists": true
+    },
+    {
+      "file": "previews/duo_exterior_closed.png",
+      "exists": true
+    },
+    {
+      "file": "previews/fold_layers_flat.png",
+      "exists": true
+    },
+    {
+      "file": "previews/fold_layers_half.png",
+      "exists": true
+    },
+    {
+      "file": "previews/fold_layers_folded.png",
+      "exists": true
+    },
+    {
+      "file": "previews/fold_layers_folded_closeup.png",
+      "exists": true
+    },
+    {
+      "file": "previews/hinge_open.png",
+      "exists": true
+    },
+    {
+      "file": "previews/hinge_half.png",
+      "exists": true
+    },
+    {
+      "file": "previews/hinge_closed.png",
+      "exists": true
+    }
+  ]
+}

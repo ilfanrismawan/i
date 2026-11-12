@@ -1,0 +1,138 @@
+{
+  "schema_version": "1.0",
+  "project": "iphone-duo-fold",
+  "topic": "Bagaimana layar iPhone Duo bisa dilipat tanpa pecah?",
+  "research": "../iphone-facts/research/topic_candidates_round2.json (id: engsel-duo)",
+  "assets": [
+    {
+      "id": "duo_exterior",
+      "path": "assets/duo_exterior.blend",
+      "collection": "ASSET_Duo",
+      "units": "metres; lies flat, inner screen +Z, hinge along Y; assumed half 78 x 118 x 4.8 mm",
+      "anchors": {
+        "root": "DUO_Root",
+        "hinge": "ANCHOR_Hinge",
+        "screens": "ANCHOR_ScreenCenter_L / _R",
+        "camera_target": "CAM_Target_Duo"
+      },
+      "controls": {
+        "fold": {
+          "type": "float",
+          "min": 0,
+          "max": 1,
+          "default": 0,
+          "on": "DUO_Root",
+          "affects": "each half turns 90 degrees about its pivot"
+        },
+        "inner_glow": {
+          "type": "float",
+          "min": 0,
+          "max": 10,
+          "default": 1.2,
+          "on": "DUO_Root",
+          "affects": "inner display emission"
+        },
+        "outer_glow": {
+          "type": "float",
+          "min": 0,
+          "max": 10,
+          "default": 0.8,
+          "on": "DUO_Root",
+          "affects": "outer display emission"
+        }
+      },
+      "phase": "mechanism-assets",
+      "status": "complete",
+      "dependencies": [],
+      "generator": "scripts/build_duo_assets.py",
+      "previews": "previews/",
+      "notes": "conceptual illustration: Apple publishes no dimensions, layer thicknesses or hinge internals",
+      "source_sha256": "ae2e3f369fc83453631333be7cdaa6c0761c1186f5c4a394460b647f86fd789c"
+    },
+    {
+      "id": "fold_layers_concept",
+      "path": "assets/fold_layers_concept.blend",
+      "collection": "ASSET_FoldLayers",
+      "units": "macro set, thickness exaggerated; fold zone 1.0, wings 0.9",
+      "anchors": {
+        "root": "FOLD_Root",
+        "centre": "ANCHOR_FoldCentre",
+        "camera_target": "CAM_Target_FoldLayers"
+      },
+      "controls": {
+        "fold": {
+          "type": "float",
+          "min": 0,
+          "max": 1,
+          "default": 0,
+          "on": "FOLD_Root",
+          "affects": "bends all eight layers 0-180 degrees through four exact poses; layers keep their length and slide"
+        },
+        "adhesive_glow": {
+          "type": "float",
+          "min": 0,
+          "max": 10,
+          "default": 0.6,
+          "on": "FOLD_Root",
+          "affects": "adhesive emission"
+        },
+        "panel_glow": {
+          "type": "float",
+          "min": 0,
+          "max": 10,
+          "default": 1.0,
+          "on": "FOLD_Root",
+          "affects": "panel emission"
+        }
+      },
+      "phase": "mechanism-assets",
+      "status": "complete",
+      "dependencies": [],
+      "generator": "scripts/build_duo_assets.py",
+      "previews": "previews/",
+      "notes": "conceptual illustration: Apple publishes no dimensions, layer thicknesses or hinge internals",
+      "source_sha256": "890b5d720d22c8412b7a0d72b996f6383bac681b6c1316f8f7a372a5ebaa1d69"
+    },
+    {
+      "id": "hinge_concept",
+      "path": "assets/hinge_concept.blend",
+      "collection": "ASSET_Hinge",
+      "units": "macro set, about 2.8 x 2.6 units when open",
+      "anchors": {
+        "root": "HINGE_Root",
+        "edges": "ANCHOR_PlateEdge_L / _R",
+        "camera_target": "CAM_Target_Hinge"
+      },
+      "controls": {
+        "fold": {
+          "type": "float",
+          "min": 0,
+          "max": 1,
+          "default": 0,
+          "on": "HINGE_Root",
+          "affects": "plates turn 90 degrees each, gears counter-rotate, centre support sinks 0.20"
+        },
+        "magnet_glow": {
+          "type": "float",
+          "min": 0,
+          "max": 10,
+          "default": 0,
+          "on": "HINGE_Root",
+          "affects": "magnet emission"
+        }
+      },
+      "phase": "mechanism-assets",
+      "status": "complete",
+      "dependencies": [],
+      "generator": "scripts/build_duo_assets.py",
+      "previews": "previews/",
+      "notes": "conceptual illustration: Apple publishes no dimensions, layer thicknesses or hinge internals",
+      "source_sha256": "906adf06e3a79c132198b3b7e5d8a100192eab5dc3b6534b62df69aad7e7faaa"
+    }
+  ],
+  "reuse_do_not_recreate": [
+    "iphone-crash-detection/scripts/asset_lib.py (imported, not copied)",
+    "Asset/Assets/Assets (user's own models: living rooms, street, girl, iPhone 14 Max)"
+  ],
+  "pending_assets": []
+}
