@@ -1,0 +1,24 @@
+{
+  "topic": "Bagaimana iPhone tahu mobilmu kecelakaan?",
+  "niche": "electronics",
+  "audience": "Penonton TikTok/Reels Indonesia; bahasa setara anak 7 tahun",
+  "language": "id-ID",
+  "narrative_question": "Bagaimana iPhone tahu mobilmu kecelakaan?",
+  "duration_seconds": 60,
+  "fps": 30,
+  "resolution": [
+    1080,
+    1920
+  ],
+  "visual_style": "stylized realistic educational 3D",
+  "render_engine": "Eevee ONLY",
+  "editorial_assembly": "CapCut Pro ONLY",
+  "shot_delivery": "one verified shot at a time; CapCut edit gate",
+  "voiceover_source": "belum direkam; durasi shot masih perkiraan",
+  "existing_assets_to_inspect": [],
+  "scientific_claims_to_verify": [],
+  "production_status": "phase 1 storyboard drafted; waiting for user approval",
+  "format": "mechanism reveal",
+  "claims_register": "research/claims.json",
+  "content_safety": "Tabrakan digambar ringan dan bergaya; tidak ada orang terluka; tanpa CTA"
+}

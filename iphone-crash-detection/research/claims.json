@@ -1,0 +1,223 @@
+{
+  "accessed": "2026-11-12",
+  "claims": [
+    {
+      "id": "crash-01",
+      "claim": "Crash Detection dirancang mendeteksi tabrakan mobil yang parah: benturan depan, samping, belakang, dan terguling, pada sedan, minivan, SUV, pikap, dan mobil penumpang lain.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://support.apple.com/en-us/104959",
+          "publisher": "Apple Support",
+          "title": "Use Crash Detection on iPhone or Apple Watch to call for help in an accident"
+        }
+      ],
+      "shot_ids": [
+        "SHOT_02"
+      ],
+      "visualization_type": "illustrative",
+      "caveat": "Hanya mobil penumpang; bukan motor."
+    },
+    {
+      "id": "crash-02",
+      "claim": "iPhone 14 memakai akselerometer dual-core yang dapat mengukur gaya sampai 256 G.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.apple.com/newsroom/2022/09/apple-introduces-iphone-14-and-iphone-14-plus/",
+          "publisher": "Apple Newsroom",
+          "title": "Apple introduces iPhone 14 and iPhone 14 Plus"
+        }
+      ],
+      "shot_ids": [
+        "SHOT_06"
+      ],
+      "visualization_type": "conceptual",
+      "caveat": "Bentuk dan letak komponen di dalam iPhone adalah ilustrasi konseptual; Apple tidak mempublikasikan detailnya. Angka 256 G tidak diucapkan di VO; hanya 'sangat kuat'."
+    },
+    {
+      "id": "crash-03",
+      "claim": "iPhone 14 memakai giroskop high dynamic range untuk fitur ini.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.apple.com/newsroom/2022/09/apple-introduces-iphone-14-and-iphone-14-plus/",
+          "publisher": "Apple Newsroom",
+          "title": "Apple introduces iPhone 14 and iPhone 14 Plus"
+        }
+      ],
+      "shot_ids": [
+        "SHOT_07"
+      ],
+      "visualization_type": "conceptual",
+      "caveat": "Bentuk dan letak komponen di dalam iPhone adalah ilustrasi konseptual; Apple tidak mempublikasikan detailnya."
+    },
+    {
+      "id": "crash-04",
+      "claim": "Barometer dapat mendeteksi perubahan tekanan kabin.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.apple.com/newsroom/2022/09/apple-introduces-iphone-14-and-iphone-14-plus/",
+          "publisher": "Apple Newsroom",
+          "title": "Apple introduces iPhone 14 and iPhone 14 Plus"
+        }
+      ],
+      "shot_ids": [
+        "SHOT_08"
+      ],
+      "visualization_type": "illustrative",
+      "caveat": "Apple tidak menyebut penyebab perubahan tekanan di teks yang diperiksa; VO tidak menyebut kantong udara."
+    },
+    {
+      "id": "crash-05",
+      "claim": "Mikrofon dapat mengenali suara keras yang khas pada tabrakan mobil parah.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.apple.com/newsroom/2022/09/apple-introduces-iphone-14-and-iphone-14-plus/",
+          "publisher": "Apple Newsroom",
+          "title": "Apple introduces iPhone 14 and iPhone 14 Plus"
+        },
+        {
+          "url": "https://support.apple.com/en-us/104959",
+          "publisher": "Apple Support",
+          "title": "Use Crash Detection on iPhone or Apple Watch to call for help in an accident"
+        }
+      ],
+      "shot_ids": [
+        "SHOT_09"
+      ],
+      "visualization_type": "illustrative",
+      "caveat": "Riak suara adalah gambar bantu, bukan sesuatu yang terlihat."
+    },
+    {
+      "id": "crash-06",
+      "claim": "Setelah tabrakan terdeteksi, iPhone membunyikan alarm dan menampilkan peringatan selama 10 detik; jika pengguna tidak merespons, hitung mundur 30 detik berjalan lalu iPhone menelepon layanan darurat otomatis.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://support.apple.com/en-us/104959",
+          "publisher": "Apple Support",
+          "title": "Use Crash Detection on iPhone or Apple Watch to call for help in an accident"
+        }
+      ],
+      "shot_ids": [
+        "SHOT_03",
+        "SHOT_13",
+        "SHOT_14"
+      ],
+      "visualization_type": "illustrative",
+      "caveat": "UI digambar bergaya umum, bukan salinan antarmuka Apple."
+    },
+    {
+      "id": "crash-07",
+      "claim": "Crash Detection memakai data dari beberapa sensor yang diproses bersama oleh algoritma gerak buatan Apple.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.apple.com/newsroom/2022/09/apple-introduces-iphone-14-and-iphone-14-plus/",
+          "publisher": "Apple Newsroom",
+          "title": "Apple introduces iPhone 14 and iPhone 14 Plus"
+        },
+        {
+          "url": "https://support.apple.com/en-us/104959",
+          "publisher": "Apple Support",
+          "title": "Use Crash Detection on iPhone or Apple Watch to call for help in an accident"
+        }
+      ],
+      "shot_ids": [
+        "SHOT_05",
+        "SHOT_11",
+        "SHOT_16"
+      ],
+      "visualization_type": "conceptual",
+      "caveat": "Bentuk dan letak komponen di dalam iPhone adalah ilustrasi konseptual; Apple tidak mempublikasikan detailnya."
+    },
+    {
+      "id": "crash-08",
+      "claim": "Tabrakan terguling termasuk jenis yang dideteksi.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://support.apple.com/en-us/104959",
+          "publisher": "Apple Support",
+          "title": "Use Crash Detection on iPhone or Apple Watch to call for help in an accident"
+        }
+      ],
+      "shot_ids": [
+        "SHOT_07"
+      ],
+      "visualization_type": "illustrative",
+      "caveat": "Mobil digambar berputar pelan, bukan terguling keras."
+    },
+    {
+      "id": "crash-09",
+      "claim": "GPS memberi masukan tambahan tentang perubahan kecepatan.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.apple.com/newsroom/2022/09/apple-introduces-iphone-14-and-iphone-14-plus/",
+          "publisher": "Apple Newsroom",
+          "title": "Apple introduces iPhone 14 and iPhone 14 Plus"
+        }
+      ],
+      "shot_ids": [
+        "SHOT_10"
+      ],
+      "visualization_type": "illustrative",
+      "caveat": "Jejak titik adalah gambar bantu."
+    },
+    {
+      "id": "crash-10",
+      "claim": "Algoritma gerak Apple dilatih dengan lebih dari satu juta jam data berkendara nyata dan catatan tabrakan.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.apple.com/newsroom/2022/09/apple-introduces-iphone-14-and-iphone-14-plus/",
+          "publisher": "Apple Newsroom",
+          "title": "Apple introduces iPhone 14 and iPhone 14 Plus"
+        }
+      ],
+      "shot_ids": [
+        "SHOT_12"
+      ],
+      "visualization_type": "illustrative",
+      "caveat": "Klaim Apple tahun 2022; tidak diverifikasi pihak lain."
+    },
+    {
+      "id": "crash-11",
+      "claim": "Saat menelepon otomatis, iPhone membagikan perkiraan koordinat lokasi kepada layanan darurat dan mengirim pesan lokasi ke kontak darurat jika sudah diatur.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://support.apple.com/en-us/104959",
+          "publisher": "Apple Support",
+          "title": "Use Crash Detection on iPhone or Apple Watch to call for help in an accident"
+        }
+      ],
+      "shot_ids": [
+        "SHOT_14"
+      ],
+      "visualization_type": "illustrative",
+      "caveat": "Berbagi lokasi bervariasi menurut negara/wilayah."
+    },
+    {
+      "id": "crash-12",
+      "claim": "Apple menyatakan Crash Detection tidak dapat mendeteksi semua tabrakan mobil; fitur ini ada di iPhone 14 atau lebih baru dengan iOS 16 atau lebih baru dan aktif secara bawaan.",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://support.apple.com/en-us/104959",
+          "publisher": "Apple Support",
+          "title": "Use Crash Detection on iPhone or Apple Watch to call for help in an accident"
+        }
+      ],
+      "shot_ids": [
+        "SHOT_15"
+      ],
+      "visualization_type": "illustrative",
+      "caveat": ""
+    }
+  ]
+}

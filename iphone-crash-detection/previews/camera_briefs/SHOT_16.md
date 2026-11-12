@@ -1,0 +1,24 @@
+# CAMERA BRIEF — SHOT_16
+
+- Narrative beat: ending
+- Voice-over: Jadi, alat-alat kecil itu bekerja sama untuk memanggil bantuan.
+- New information: Rangkuman: beberapa sensor bekerja sama
+- Subject: iPhone tembus pandang, kelima sensor menyala bersama lalu cangkang kembali utuh
+- Angle: three-quarter — Kembali ke sudut SHOT_05 untuk menutup lingkaran
+- Shot size: close
+- Movement: dolly-pull — Mundur pelan saat cangkang menutup, kembali ke benda sehari-hari
+- Movement start: Sensor menyala di dalam
+- Movement end: iPhone utuh
+- Focal target: PHONE_Body
+- Camera rig: CAM_SHOT_16
+- Lens or ortho: tentukan saat blocking
+- Virtual reveal: none
+- Reveal purpose: NOT SPECIFIED — inspect source assets and storyboard
+- Geometry visibility: NOT SPECIFIED — inspect source assets and storyboard
+- Scale transition: NOT SPECIFIED — inspect source assets and storyboard
+- Transition to next (CapCut): Akhir video
+- Spatial anchor: Siluet iPhone utuh
+- Technical QA: NOT SPECIFIED — inspect source assets and storyboard
+
+## Agent instructions
+Reuse existing assets and actual attachment points. In Blender, animate only this shot, using Eevee. No editorial overlays, no final concatenation. For a fly-through, specify a non-destructive cross-section/visibility transition or matched separate scaled environment; never pass through an opaque mesh and assume it becomes transparent. Validate clipping and technical clarity in 9:16 with multiple frame samples, then encode a **single-shot** MP4 and hand it off to CapCut Pro. Do not claim CapCut editing occurred without evidence. Stop at the per-shot CapCut gate.
