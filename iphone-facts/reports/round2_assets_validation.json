@@ -1,0 +1,87 @@
+{
+  "blender": "5.3.0",
+  "tests": {
+    "quad merge=1 -> pixel 1,1 moved x,y (expect 0.04, 0.04)": [
+      0.04,
+      0.04
+    ],
+    "quad merge=1 -> merged cap scale (expect 1)": 1.0,
+    "quad merge=0.4 -> merged cap scale (expect 0)": 0.0,
+    "quad pixels / merged caps (expect 64 / 16)": [
+      64,
+      16
+    ],
+    "button press=0.4 -> cap z, beam flex, dome snap (expect 0.67, 1, 0)": [
+      0.67,
+      1.0,
+      0.0
+    ],
+    "button press=1 -> cap z, carrier z, dome snap (expect 0.57, -0.1, 1)": [
+      0.57,
+      -0.1,
+      1.0
+    ],
+    "button slide=1 -> finger x (expect 0.85)": 0.85,
+    "print progress=0.5 -> layer 15, 16, 17 scale (expect 1, 0, 0)": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "print progress=0.5 -> laser follower z (expect 0.3)": 0.3,
+    "print powder_level=1 -> powder top z (expect 0.6); recoat=1 -> blade x (expect 1.3)": [
+      0.6,
+      1.3
+    ],
+    "print layers / laser beams (expect 30 / 6)": [
+      30,
+      6
+    ],
+    "heat flow=1 -> mover x (expect 0.4)": 0.4
+  },
+  "renders": [
+    {
+      "file": "iphone-quad-pixel/previews/quad_pixel_separate.png",
+      "exists": true
+    },
+    {
+      "file": "iphone-quad-pixel/previews/quad_pixel_merged.png",
+      "exists": true
+    },
+    {
+      "file": "iphone-quad-pixel/previews/quad_pixel_centre_crop.png",
+      "exists": true
+    },
+    {
+      "file": "iphone-camera-control/previews/camera_control_rest.png",
+      "exists": true
+    },
+    {
+      "file": "iphone-camera-control/previews/camera_control_light_press.png",
+      "exists": true
+    },
+    {
+      "file": "iphone-camera-control/previews/camera_control_full_click.png",
+      "exists": true
+    },
+    {
+      "file": "iphone-camera-control/previews/camera_control_slide.png",
+      "exists": true
+    },
+    {
+      "file": "iphone-printed-port/previews/printed_port_printing_half.png",
+      "exists": true
+    },
+    {
+      "file": "iphone-printed-port/previews/printed_port_in_powder.png",
+      "exists": true
+    },
+    {
+      "file": "iphone-printed-port/previews/printed_port_finished.png",
+      "exists": true
+    },
+    {
+      "file": "iphone-vapor-chamber/previews/heat_flow_arrows.png",
+      "exists": true
+    }
+  ]
+}
