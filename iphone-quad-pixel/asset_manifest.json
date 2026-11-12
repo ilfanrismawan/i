@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "project": "iphone-quad-pixel",
+  "assets": [
+    {
+      "id": "sensor_quadpixel_concept",
+      "path": "assets/sensor_quadpixel_concept.blend",
+      "collection": "ASSET_QuadPixel",
+      "units": "macro set, 8 x 8 pixels at 0.5 pitch; a real sensor has 48 million, this shows a tiny patch",
+      "anchors": {
+        "root": "QUAD_Root",
+        "pixels": "QUAD_Pixel_<col>_<row>",
+        "camera_target": "CAM_Target_QuadPixel"
+      },
+      "controls": {
+        "merge": {
+          "type": "float",
+          "min": 0,
+          "max": 1,
+          "default": 0,
+          "on": "QUAD_Root",
+          "affects": "pixels close up in fours; merged caps appear in the second half"
+        },
+        "pixel_glow": {
+          "type": "float",
+          "min": 0,
+          "max": 10,
+          "default": 0.4,
+          "on": "QUAD_Root",
+          "affects": "colour filter emission"
+        },
+        "quad_glow": {
+          "type": "float",
+          "min": 0,
+          "max": 10,
+          "default": 0,
+          "on": "QUAD_Root",
+          "affects": "merged cap emission"
+        },
+        "crop_glow": {
+          "type": "float",
+          "min": 0,
+          "max": 10,
+          "default": 0,
+          "on": "QUAD_Root",
+          "affects": "frame around the middle quarter"
+        }
+      },
+      "notes": "Conceptual. Pixels do not physically move in a real sensor: the sliding together is a metaphor for reading four as one. Colour layout and microlenses are a generic quad-Bayer illustration.",
+      "phase": "mechanism-assets",
+      "status": "complete",
+      "dependencies": [],
+      "generator": "../iphone-facts/scripts/build_round2_assets.py",
+      "previews": "previews/",
+      "source_sha256": "c121862ba4e4b74444aee984cbae02e24072140d0a331baabe1128b35a6becc7"
+    }
+  ],
+  "topic": "Kamera 48 MP iPhone biasanya cuma memotret 12 MP. Kenapa?",
+  "research": "../iphone-facts/research/topic_candidates_round2.json (id: empat-jadi-satu)",
+  "sourced_facts": "Apple (iPhone 14 Pro): the quad-pixel sensor combines every four pixels into one large quad pixel equivalent to 2.44 um for most photos (12 MP); ProRAW uses 48 MP; the 2x Telephoto uses the middle 12 megapixels.",
+  "pending_assets": [],
+  "reuse_do_not_recreate": [
+    "iphone-crash-detection/scripts/asset_lib.py (imported, not copied)",
+    "iphone-crash-detection/assets/phone_exterior.blend"
+  ]
+}
