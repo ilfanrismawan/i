@@ -12,16 +12,85 @@
       "collection": "ASSET_VaporChamber",
       "dependencies": [],
       "units": "macro set, about 3.6 x 1.6 units; scale exaggerated; hot end at -X, cool end at +X",
-      "anchors": {"root": "VAPOR_Root", "hot": "ANCHOR_HotSpot", "cool": "ANCHOR_CoolEnd", "camera_target": "CAM_Target_Vapor"},
+      "anchors": {
+        "root": "VAPOR_Root",
+        "hot": "ANCHOR_HotSpot",
+        "cool": "ANCHOR_CoolEnd",
+        "camera_target": "CAM_Target_Vapor"
+      },
       "controls": {
-        "cycle": {"type": "float", "min": 0, "max": 1, "default": 0, "on": "VAPOR_Root", "affects": "droplets creep 0.4 toward the hot end, vapour drifts 0.4 toward the cool end; loops seamlessly"},
-        "heat": {"type": "float", "min": 0, "max": 10, "default": 0, "on": "VAPOR_Root", "affects": "glow of the chip under the chamber"},
-        "cool_glow": {"type": "float", "min": 0, "max": 10, "default": 0, "on": "VAPOR_Root", "affects": "glow of the body plate at the cool end"},
-        "flow_glow": {"type": "float", "min": 0, "max": 10, "default": 0.8, "on": "VAPOR_Root", "affects": "glow of droplets and vapour"}
+        "cycle": {
+          "type": "float",
+          "min": 0,
+          "max": 1,
+          "default": 0,
+          "on": "VAPOR_Root",
+          "affects": "droplets creep 0.4 toward the hot end, vapour drifts 0.4 toward the cool end; loops seamlessly"
+        },
+        "heat": {
+          "type": "float",
+          "min": 0,
+          "max": 10,
+          "default": 0,
+          "on": "VAPOR_Root",
+          "affects": "glow of the chip under the chamber"
+        },
+        "cool_glow": {
+          "type": "float",
+          "min": 0,
+          "max": 10,
+          "default": 0,
+          "on": "VAPOR_Root",
+          "affects": "glow of the body plate at the cool end"
+        },
+        "flow_glow": {
+          "type": "float",
+          "min": 0,
+          "max": 10,
+          "default": 0.8,
+          "on": "VAPOR_Root",
+          "affects": "glow of droplets and vapour"
+        }
       },
       "generator": "scripts/build_vapor_chamber.py",
       "previews": "previews/",
       "notes": "Conceptual illustration of a generic vapor chamber. Apple states only that deionized water is sealed in a chamber laser-welded to the aluminium body."
+    },
+    {
+      "id": "heat_flow_schematic",
+      "path": "assets/heat_flow_schematic.blend",
+      "collection": "ASSET_FX_HeatFlow",
+      "dependencies": [
+        "vapor_chamber_concept"
+      ],
+      "units": "macro set matching vapor_chamber_concept; nine arrows from x=-1.6 to x=1.6",
+      "anchors": {
+        "root": "FXHEAT_Root"
+      },
+      "controls": {
+        "flow": {
+          "type": "float",
+          "min": 0,
+          "max": 1,
+          "default": 0,
+          "on": "FXHEAT_Root",
+          "affects": "arrows advance 0.4 (one spacing)"
+        },
+        "strength": {
+          "type": "float",
+          "min": 0,
+          "max": 10,
+          "default": 2,
+          "on": "FXHEAT_Root",
+          "affects": "emission"
+        }
+      },
+      "notes": "Illustrative drawing aid: heat is not visible.",
+      "phase": "mechanism-assets",
+      "status": "complete",
+      "generator": "../iphone-facts/scripts/build_round2_assets.py",
+      "previews": "previews/",
+      "source_sha256": "32b859e791475d079f1f2723486af937b012a1b805d00ca9dafe40d0c4c412f9"
     }
   ],
   "reuse_do_not_recreate": [
@@ -31,5 +100,8 @@
     "iphone-crash-detection/assets/phone_interior_concept.blend",
     "iphone-crash-detection/scripts/asset_lib.py (imported, not copied)"
   ],
-  "pending_assets": ["heat_flow_schematic", "phone_17pro_body_adapter (only if the existing iPhone model cannot stand in)"]
+  "pending_assets": [
+    "phone_17pro_body_adapter (only if the existing iPhone model cannot stand in)"
+  ],
+  "sourced_facts": "Apple (iPhone 17 Pro): deionized water is sealed inside an Apple-designed vapor chamber laser-welded into the aluminum unibody; heat from A19 Pro moves into the unibody and is spread; up to 40 percent better sustained performance."
 }
