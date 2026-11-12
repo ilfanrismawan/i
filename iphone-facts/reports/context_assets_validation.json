@@ -1,0 +1,55 @@
+{
+  "blender": "5.3.0",
+  "tests": {
+    "button body: press=1 -> button x moved mm (expect -0.35)": -0.35,
+    "button body: button sticks out of the frame mm at rest (expect about 0.8)": 0.8,
+    "button body: phone parts reused (appended, not rebuilt)": 21,
+    "air: body thickness mm (expect 5.6)": 5.6,
+    "air: port outer size mm x,y (expect about 8.9, 3.2) and it fits inside 5.6": [
+      8.9,
+      3.2
+    ],
+    "air: port_slide=1 -> port moved mm (expect -12)": -12.0,
+    "vapor body: chamber inside the shell (x within +-35.75, y below 3.9, z within +-73.35 mm)": true,
+    "vapor body: chamber y range mm": [
+      2.3,
+      3.1
+    ],
+    "vapor body: interior markers reused": 6,
+    "lighting: intensity=2 -> key energy (expect 5.2)": 5.2,
+    "lighting: lights / world": [
+      3,
+      "WORLD_NeutralDark"
+    ]
+  },
+  "renders": [
+    {
+      "file": "iphone-camera-control/previews/phone_camera_control_side.png",
+      "exists": true
+    },
+    {
+      "file": "iphone-camera-control/previews/phone_camera_control_macro.png",
+      "exists": true
+    },
+    {
+      "file": "iphone-printed-port/previews/phone_air_bottom_port.png",
+      "exists": true
+    },
+    {
+      "file": "iphone-printed-port/previews/phone_air_port_exploded.png",
+      "exists": true
+    },
+    {
+      "file": "iphone-printed-port/previews/phone_air_thin_profile.png",
+      "exists": true
+    },
+    {
+      "file": "iphone-vapor-chamber/previews/phone_vapor_xray_back.png",
+      "exists": true
+    },
+    {
+      "file": "iphone-vapor-chamber/previews/phone_vapor_xray_back_hot_cool.png",
+      "exists": true
+    }
+  ]
+}
