@@ -61,6 +61,54 @@
       "generator": "../iphone-facts/scripts/build_round2_assets.py",
       "previews": "previews/",
       "source_sha256": "aa5aa78c40a48cc55294f9886073ba38f91015fad27a0749130d963e380ff48c"
+    },
+    {
+      "id": "phone_air_bottom",
+      "path": "assets/phone_air_bottom.blend",
+      "collection": "ASSET_PhoneAir",
+      "dependencies": [
+        "iphone-crash-detection: phone_exterior (appended copy, thinned)",
+        "printed_port_concept"
+      ],
+      "units": "metres, real scale; body thinned to 5.6 mm (Apple figure); port at the bottom edge",
+      "anchors": {
+        "root": "AIR_Root",
+        "phone": "PHONE_Root",
+        "port": "ANCHOR_Port",
+        "camera_target": "CAM_Target_PhoneAir"
+      },
+      "controls": {
+        "port_glow": {
+          "type": "float",
+          "min": 0,
+          "max": 10,
+          "default": 0,
+          "on": "AIR_Root",
+          "affects": "port emission"
+        },
+        "port_slide": {
+          "type": "float",
+          "min": 0,
+          "max": 1,
+          "default": 0,
+          "on": "AIR_Root",
+          "affects": "port slides 12 mm out along -Z"
+        },
+        "shell_opacity": {
+          "type": "float",
+          "min": 0,
+          "max": 1,
+          "default": 1,
+          "on": "PHONE_Root",
+          "affects": "inherited from phone_exterior"
+        }
+      },
+      "notes": "Generic phone body thinned in Y, not the real iPhone Air design (camera layout differs). Port shape and size are illustrative.",
+      "phase": "context-assets",
+      "status": "complete",
+      "generator": "../iphone-facts/scripts/build_context_assets.py",
+      "previews": "previews/",
+      "source_sha256": "720ec6884dd3f8a84c16fa2ad390cc1274de2ad8c1cde7e0a6c8bce1b8614fd1"
     }
   ],
   "topic": "Lubang cas iPhone Air dicetak dari serbuk titanium",
