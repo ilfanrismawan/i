@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.0",
+  "project": "iphone-camera-control",
+  "assets": [
+    {
+      "id": "camera_control_concept",
+      "path": "assets/camera_control_concept.blend",
+      "collection": "ASSET_CameraControl",
+      "units": "macro set, about 4.9 wide; cross-section meant to be seen from -Y",
+      "anchors": {
+        "root": "CC_Root",
+        "cap_top": "ANCHOR_CapTop",
+        "camera_target": "CAM_Target_CameraControl"
+      },
+      "controls": {
+        "press": {
+          "type": "float",
+          "min": 0,
+          "max": 1,
+          "default": 0,
+          "on": "CC_Root",
+          "affects": "cap travel in two stages; beam flexes by 0.4, dome snaps between 0.55 and 0.7"
+        },
+        "slide": {
+          "type": "float",
+          "min": -1,
+          "max": 1,
+          "default": 0,
+          "on": "CC_Root",
+          "affects": "finger marker +-0.85 along the cap"
+        },
+        "finger_visible": {
+          "type": "float",
+          "min": 0,
+          "max": 1,
+          "default": 0,
+          "on": "CC_Root",
+          "affects": "finger marker scale"
+        },
+        "touch_glow": {
+          "type": "float",
+          "min": 0,
+          "max": 10,
+          "default": 0,
+          "on": "CC_Root",
+          "affects": "capacitive layer"
+        },
+        "force_glow": {
+          "type": "float",
+          "min": 0,
+          "max": 10,
+          "default": 0,
+          "on": "CC_Root",
+          "affects": "force beam"
+        },
+        "switch_glow": {
+          "type": "float",
+          "min": 0,
+          "max": 10,
+          "default": 0,
+          "on": "CC_Root",
+          "affects": "switch dome"
+        }
+      },
+      "notes": "Conceptual. Apple names the three parts and what each enables; their shapes, stacking order and travel distances here are an illustration. Sapphire crystal is mentioned by Apple only for its cases, so the cap is not labelled sapphire.",
+      "phase": "mechanism-assets",
+      "status": "complete",
+      "dependencies": [],
+      "generator": "../iphone-facts/scripts/build_round2_assets.py",
+      "previews": "previews/",
+      "source_sha256": "010bf5d98c99cf1f809471479cef15d4510b5ee68e18b5a9708fe05b57f1e520"
+    }
+  ],
+  "topic": "Satu tombol iPhone 16 punya tiga alat perasa",
+  "research": "../iphone-facts/research/topic_candidates_round2.json (id: camera-control)",
+  "sourced_facts": "Apple (iPhone 16): Camera Control has a tactile switch that powers the click, a high-precision force sensor that enables the light press, and a capacitive sensor for touch interactions (sliding).",
+  "pending_assets": [],
+  "reuse_do_not_recreate": [
+    "iphone-crash-detection/scripts/asset_lib.py (imported, not copied)",
+    "iphone-crash-detection/assets/phone_exterior.blend"
+  ]
+}
