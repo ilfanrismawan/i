@@ -1,0 +1,69 @@
+{
+  "rubric_weights": {
+    "curiosity": 0.23,
+    "familiarity": 0.17,
+    "visualizability": 0.22,
+    "learning_value": 0.2,
+    "differentiation": 0.1,
+    "feasibility": 0.08
+  },
+  "ranked_topics": [
+    {
+      "id": "motor-kamera",
+      "title": "Kenapa getaran motor bisa merusak kamera iPhone?",
+      "score_out_of_5": 4.82,
+      "research_status": "verified",
+      "production_ready": true
+    },
+    {
+      "id": "face-id",
+      "title": "Bagaimana iPhone mengenali wajahmu di tempat gelap?",
+      "score_out_of_5": 4.39,
+      "research_status": "verified",
+      "production_ready": true
+    },
+    {
+      "id": "home-button",
+      "title": "Tombol Home iPhone 7 ternyata tidak benar-benar turun saat ditekan",
+      "score_out_of_5": 4.21,
+      "research_status": "qualified",
+      "production_ready": true
+    },
+    {
+      "id": "crash-detection",
+      "title": "Bagaimana iPhone tahu mobilmu kecelakaan?",
+      "score_out_of_5": 3.95,
+      "research_status": "verified",
+      "production_ready": true
+    },
+    {
+      "id": "lidar",
+      "title": "Titik kecil hitam di kamera iPhone Pro itu mengukur jarak dengan cahaya",
+      "score_out_of_5": 3.95,
+      "research_status": "qualified",
+      "production_ready": true
+    },
+    {
+      "id": "helium",
+      "title": "Kenapa gas helium bisa bikin iPhone mati?",
+      "score_out_of_5": 3.91,
+      "research_status": "qualified",
+      "production_ready": true
+    },
+    {
+      "id": "sensor-shift-5000",
+      "title": "Sensor kamera iPhone bergerak 5.000 kali per detik",
+      "score_out_of_5": 3.73,
+      "research_status": "research_required",
+      "production_ready": false
+    },
+    {
+      "id": "stiker-air",
+      "title": "Ada stiker rahasia di dalam iPhone yang berubah merah kalau kena air",
+      "score_out_of_5": 3.56,
+      "research_status": "qualified",
+      "production_ready": true
+    }
+  ],
+  "warning": "Editorial scores do not verify factual claims or source authenticity."
+}

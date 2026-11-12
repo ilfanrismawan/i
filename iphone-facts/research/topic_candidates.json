@@ -1,0 +1,78 @@
+{
+  "audience": "Penonton TikTok/Reels Indonesia, bahasa setara anak 7 tahun",
+  "accessed": "2026-11-12",
+  "topics": [
+    {
+      "id": "motor-kamera",
+      "title": "Kenapa getaran motor bisa merusak kamera iPhone?",
+      "niche": "electronics",
+      "format": "mechanism reveal",
+      "scores": {"curiosity": 5, "familiarity": 5, "visualizability": 5, "learning_value": 5, "differentiation": 4, "feasibility": 4},
+      "research_status": "verified",
+      "sources": ["https://support.apple.com/en-us/102175"]
+    },
+    {
+      "id": "helium",
+      "title": "Kenapa gas helium bisa bikin iPhone mati?",
+      "niche": "electronics",
+      "format": "surprising fact",
+      "scores": {"curiosity": 5, "familiarity": 2, "visualizability": 4, "learning_value": 4, "differentiation": 5, "feasibility": 3},
+      "research_status": "qualified",
+      "sources": ["https://www.ifixit.com/News/iphones-are-allergic-to-helium", "https://support.apple.com/guide/iphone/important-safety-information-iph301fc905/17.0/ios/17.0"]
+    },
+    {
+      "id": "face-id",
+      "title": "Bagaimana iPhone mengenali wajahmu di tempat gelap?",
+      "niche": "electronics",
+      "format": "mechanism reveal",
+      "scores": {"curiosity": 4, "familiarity": 5, "visualizability": 5, "learning_value": 5, "differentiation": 2, "feasibility": 4},
+      "research_status": "verified",
+      "sources": ["https://www.apple.com/newsroom/2017/09/the-future-is-here-iphone-x/", "https://support.apple.com/en-us/102381"]
+    },
+    {
+      "id": "crash-detection",
+      "title": "Bagaimana iPhone tahu mobilmu kecelakaan?",
+      "niche": "electronics",
+      "format": "mechanism reveal",
+      "scores": {"curiosity": 4, "familiarity": 3, "visualizability": 4, "learning_value": 5, "differentiation": 4, "feasibility": 3},
+      "research_status": "verified",
+      "sources": ["https://www.apple.com/newsroom/2022/09/apple-introduces-iphone-14-and-iphone-14-plus/"]
+    },
+    {
+      "id": "home-button",
+      "title": "Tombol Home iPhone 7 ternyata tidak benar-benar turun saat ditekan",
+      "niche": "electronics",
+      "format": "surprising fact",
+      "scores": {"curiosity": 5, "familiarity": 4, "visualizability": 4, "learning_value": 4, "differentiation": 3, "feasibility": 5},
+      "research_status": "qualified",
+      "sources": ["https://www.apple.com/newsroom/2016/09/apple-introduces-iphone-7-iphone-7-plus/"]
+    },
+    {
+      "id": "lidar",
+      "title": "Titik kecil hitam di kamera iPhone Pro itu mengukur jarak dengan cahaya",
+      "niche": "electronics",
+      "format": "invisible scale",
+      "scores": {"curiosity": 4, "familiarity": 3, "visualizability": 5, "learning_value": 4, "differentiation": 3, "feasibility": 4},
+      "research_status": "qualified",
+      "sources": ["https://www.apple.com/newsroom/2020/03/apple-unveils-new-ipad-pro-with-lidar-scanner-and-trackpad-support-in-ipados/", "https://www.apple.com/newsroom/2020/10/apple-introduces-iphone-12-pro-and-iphone-12-pro-max-with-5g/"]
+    },
+    {
+      "id": "stiker-air",
+      "title": "Ada stiker rahasia di dalam iPhone yang berubah merah kalau kena air",
+      "niche": "electronics",
+      "format": "surprising fact",
+      "scores": {"curiosity": 4, "familiarity": 4, "visualizability": 3, "learning_value": 3, "differentiation": 3, "feasibility": 5},
+      "research_status": "qualified",
+      "sources": ["https://support.apple.com/en-us/109350"]
+    },
+    {
+      "id": "sensor-shift-5000",
+      "title": "Sensor kamera iPhone bergerak 5.000 kali per detik",
+      "niche": "electronics",
+      "format": "surprising fact",
+      "scores": {"curiosity": 4, "familiarity": 3, "visualizability": 4, "learning_value": 4, "differentiation": 3, "feasibility": 4},
+      "research_status": "research_required",
+      "sources": []
+    }
+  ]
+}
