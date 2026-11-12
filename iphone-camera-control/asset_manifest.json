@@ -69,6 +69,54 @@
       "generator": "../iphone-facts/scripts/build_round2_assets.py",
       "previews": "previews/",
       "source_sha256": "010bf5d98c99cf1f809471479cef15d4510b5ee68e18b5a9708fe05b57f1e520"
+    },
+    {
+      "id": "phone_with_camera_control",
+      "path": "assets/phone_with_camera_control.blend",
+      "collection": "ASSET_PhoneCameraControl",
+      "dependencies": [
+        "iphone-crash-detection: phone_exterior (appended copy)",
+        "camera_control_concept"
+      ],
+      "units": "metres, real scale; same axes as phone_exterior (upright, screen -Y); button on the +X edge",
+      "anchors": {
+        "root": "PCC_Root",
+        "phone": "PHONE_Root",
+        "button": "ANCHOR_CameraControl",
+        "camera_target": "CAM_Target_PhoneCameraControl"
+      },
+      "controls": {
+        "button_glow": {
+          "type": "float",
+          "min": 0,
+          "max": 10,
+          "default": 0,
+          "on": "PCC_Root",
+          "affects": "button emission"
+        },
+        "button_press": {
+          "type": "float",
+          "min": 0,
+          "max": 1,
+          "default": 0,
+          "on": "PCC_Root",
+          "affects": "button sinks 0.35 mm"
+        },
+        "shell_opacity": {
+          "type": "float",
+          "min": 0,
+          "max": 1,
+          "default": 1,
+          "on": "PHONE_Root",
+          "affects": "inherited from phone_exterior"
+        }
+      },
+      "notes": "Generic phone body, not the real iPhone 16 design; button size and position are illustrative.",
+      "phase": "context-assets",
+      "status": "complete",
+      "generator": "../iphone-facts/scripts/build_context_assets.py",
+      "previews": "previews/",
+      "source_sha256": "9b73187200ce4a72025cc589e3a19b0b94e97a34b4b7779474eea8c24f664be2"
     }
   ],
   "topic": "Satu tombol iPhone 16 punya tiga alat perasa",
