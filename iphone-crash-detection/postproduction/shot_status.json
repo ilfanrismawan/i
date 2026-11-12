@@ -31,56 +31,82 @@
       "visual_qa_user_confirmation": false
     },
     "SHOT_06": {
-      "status": "PENDING_CAPCUT_HANDOFF",
-      "clip": ""
+      "status": "WAITING_FOR_CAPCUT_IMPORT",
+      "clip": "C:\\Users\\HOG-PC001\\Documents\\i\\iphone-crash-detection\\renders\\shot_06.mp4",
+      "technical_media_verified": true,
+      "visual_qa_user_confirmation": false
     },
     "SHOT_07": {
-      "status": "PENDING_CAPCUT_HANDOFF",
-      "clip": ""
+      "status": "WAITING_FOR_CAPCUT_IMPORT",
+      "clip": "C:\\Users\\HOG-PC001\\Documents\\i\\iphone-crash-detection\\renders\\shot_07.mp4",
+      "technical_media_verified": true,
+      "visual_qa_user_confirmation": false
     },
     "SHOT_08": {
-      "status": "PENDING_CAPCUT_HANDOFF",
-      "clip": ""
+      "status": "WAITING_FOR_CAPCUT_IMPORT",
+      "clip": "C:\\Users\\HOG-PC001\\Documents\\i\\iphone-crash-detection\\renders\\shot_08.mp4",
+      "technical_media_verified": true,
+      "visual_qa_user_confirmation": false
     },
     "SHOT_09": {
-      "status": "PENDING_CAPCUT_HANDOFF",
-      "clip": ""
+      "status": "WAITING_FOR_CAPCUT_IMPORT",
+      "clip": "C:\\Users\\HOG-PC001\\Documents\\i\\iphone-crash-detection\\renders\\shot_09.mp4",
+      "technical_media_verified": true,
+      "visual_qa_user_confirmation": false
     },
     "SHOT_10": {
-      "status": "PENDING_CAPCUT_HANDOFF",
-      "clip": ""
+      "status": "WAITING_FOR_CAPCUT_IMPORT",
+      "clip": "C:\\Users\\HOG-PC001\\Documents\\i\\iphone-crash-detection\\renders\\shot_10.mp4",
+      "technical_media_verified": true,
+      "visual_qa_user_confirmation": false
     },
     "SHOT_11": {
-      "status": "PENDING_CAPCUT_HANDOFF",
-      "clip": ""
+      "status": "WAITING_FOR_CAPCUT_IMPORT",
+      "clip": "C:\\Users\\HOG-PC001\\Documents\\i\\iphone-crash-detection\\renders\\shot_11.mp4",
+      "technical_media_verified": true,
+      "visual_qa_user_confirmation": false
     },
     "SHOT_12": {
-      "status": "PENDING_CAPCUT_HANDOFF",
-      "clip": ""
+      "status": "WAITING_FOR_CAPCUT_IMPORT",
+      "clip": "C:\\Users\\HOG-PC001\\Documents\\i\\iphone-crash-detection\\renders\\shot_12.mp4",
+      "technical_media_verified": true,
+      "visual_qa_user_confirmation": false
     },
     "SHOT_13": {
-      "status": "PENDING_CAPCUT_HANDOFF",
-      "clip": ""
+      "status": "WAITING_FOR_CAPCUT_IMPORT",
+      "clip": "C:\\Users\\HOG-PC001\\Documents\\i\\iphone-crash-detection\\renders\\shot_13.mp4",
+      "technical_media_verified": true,
+      "visual_qa_user_confirmation": false
     },
     "SHOT_14": {
-      "status": "PENDING_CAPCUT_HANDOFF",
-      "clip": ""
+      "status": "WAITING_FOR_CAPCUT_IMPORT",
+      "clip": "C:\\Users\\HOG-PC001\\Documents\\i\\iphone-crash-detection\\renders\\shot_14.mp4",
+      "technical_media_verified": true,
+      "visual_qa_user_confirmation": false
     },
     "SHOT_15": {
-      "status": "PENDING_CAPCUT_HANDOFF",
-      "clip": ""
+      "status": "WAITING_FOR_CAPCUT_IMPORT",
+      "clip": "C:\\Users\\HOG-PC001\\Documents\\i\\iphone-crash-detection\\renders\\shot_15.mp4",
+      "technical_media_verified": true,
+      "visual_qa_user_confirmation": false
     },
     "SHOT_16": {
-      "status": "PENDING_CAPCUT_HANDOFF",
-      "clip": ""
+      "status": "WAITING_FOR_CAPCUT_IMPORT",
+      "clip": "C:\\Users\\HOG-PC001\\Documents\\i\\iphone-crash-detection\\renders\\shot_16.mp4",
+      "technical_media_verified": true,
+      "visual_qa_user_confirmation": false
     },
     "SHOT_17": {
-      "status": "PENDING_CAPCUT_HANDOFF",
-      "clip": ""
+      "status": "WAITING_FOR_CAPCUT_IMPORT",
+      "clip": "C:\\Users\\HOG-PC001\\Documents\\i\\iphone-crash-detection\\renders\\shot_17.mp4",
+      "technical_media_verified": true,
+      "visual_qa_user_confirmation": false
     },
     "SHOT_18": {
-      "status": "PENDING_CAPCUT_HANDOFF",
-      "clip": ""
+      "status": "WAITING_FOR_CAPCUT_IMPORT",
+      "clip": "C:\\Users\\HOG-PC001\\Documents\\i\\iphone-crash-detection\\renders\\shot_18.mp4",
+      "technical_media_verified": true,
+      "visual_qa_user_confirmation": false
     }
   }
 }

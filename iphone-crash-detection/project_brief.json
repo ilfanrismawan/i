@@ -17,7 +17,7 @@
   "voiceover_source": "audio/voice_over.mp3 (68.911 s, rekaman pengguna); naskah: script/voiceover_id_revisi.txt",
   "existing_assets_to_inspect": [],
   "scientific_claims_to_verify": [],
-  "production_status": "all planned assets complete (17 ids); next: phase 7 cinematography / shot scenes, starting with SHOT_01",
+  "production_status": "all 18 shots rendered (1080x1920 @ 30fps Eevee), encoded to MP4, verified, and packaged for CapCut Pro import",
   "format": "mechanism reveal",
   "claims_register": "research/claims.json",
   "content_safety": "Tabrakan digambar ringan dan bergaya; tidak ada orang terluka; tanpa CTA"
