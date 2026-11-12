@@ -1,0 +1,1 @@
+{"schema_version":"1.0","project":"example-project","assets":[{"id":"hero_object","path":"assets/hero_object.blend","phase":"master-assets","status":"complete","collection":"ASSET_Hero","dependencies":[],"anchors":{"root":"HERO_Root","interface":"HERO_InteractionTarget"},"controls":{"reveal":{"type":"float","min":0,"max":1,"default":0}}}]}

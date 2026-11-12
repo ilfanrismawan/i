@@ -1,23 +1,23 @@
 # CAMERA BRIEF — SHOT_13
 
-- Narrative beat: result
-- Voice-over: Kalau tandanya cocok, iPhone membunyikan alarm dan bertanya dulu.
-- New information: iPhone memberi alarm dan peringatan 10 detik sebelum bertindak
-- Subject: Layar iPhone di dasbor: peringatan dengan hitung mundur dan tombol batal (UI diegetik)
-- Angle: front-on — Tampak depan agar peringatan dan hitungan terbaca
+- Narrative beat: mechanism
+- Voice-over: si ipon menggabungkan semua tanda itu.
+- New information: Tanda dari semua sensor digabung, bukan dinilai satu per satu
+- Subject: Di dalam iPhone, lima garis sinyal skematis dari tiap sensor bertemu di satu chip
+- Angle: isometric-cutaway — Isometrik memperlihatkan kelima jalur sekaligus
 - Shot size: close
-- Movement: locked — Diam; yang berubah adalah angka di layar
-- Movement start: Peringatan muncul
-- Movement end: Hitungan berjalan
-- Focal target: PHONE_Screen
+- Movement: follow — Kamera mengikuti satu jalur sampai titik temu
+- Movement start: Titik sensor gerak
+- Movement end: Chip pusat dengan lima jalur tiba
+- Focal target: PHONE_ProcessorChip
 - Camera rig: CAM_SHOT_13
 - Lens or ortho: tentukan saat blocking
-- Virtual reveal: none
-- Reveal purpose: NOT SPECIFIED — inspect source assets and storyboard
+- Virtual reveal: signal_follow
+- Reveal purpose: Menunjukkan penggabungan data sebagai jalur skematis, bukan listrik yang terlihat
 - Geometry visibility: NOT SPECIFIED — inspect source assets and storyboard
 - Scale transition: NOT SPECIFIED — inspect source assets and storyboard
-- Transition to next (CapCut): Potong ke sudut rendah iPhone
-- Spatial anchor: Dasbor dari SHOT_03
+- Transition to next (CapCut): Potong ke tampilan belajar dari data
+- Spatial anchor: Papan sirkuit dari SHOT_05
 - Technical QA: NOT SPECIFIED — inspect source assets and storyboard
 
 ## Agent instructions

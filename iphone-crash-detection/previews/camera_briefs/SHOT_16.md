@@ -1,14 +1,14 @@
 # CAMERA BRIEF — SHOT_16
 
-- Narrative beat: ending
-- Voice-over: Jadi, alat-alat kecil itu bekerja sama untuk memanggil bantuan.
-- New information: Rangkuman: beberapa sensor bekerja sama
-- Subject: iPhone tembus pandang, kelima sensor menyala bersama lalu cangkang kembali utuh
-- Angle: three-quarter — Kembali ke sudut SHOT_05 untuk menutup lingkaran
-- Shot size: close
-- Movement: dolly-pull — Mundur pelan saat cangkang menutup, kembali ke benda sehari-hari
-- Movement start: Sensor menyala di dalam
-- Movement end: iPhone utuh
+- Narrative beat: result
+- Voice-over: Kalau tidak ada yang menjawab, iPhone menelepon bantuan dan memberi tahu lokasimu.
+- New information: Tanpa jawaban, iPhone menelepon layanan darurat dan mengirim perkiraan lokasi
+- Subject: iPhone dari sudut rendah; gelombang panggilan skematis naik, pin lokasi muncul di layar
+- Angle: low-angle — Sudut rendah menjadikan iPhone penolong
+- Shot size: medium
+- Movement: crane — Kamera naik mengikuti gelombang panggilan keluar dari mobil
+- Movement start: iPhone di dasbor dari bawah
+- Movement end: Atap mobil terbuka ke langit, gelombang naik
 - Focal target: PHONE_Body
 - Camera rig: CAM_SHOT_16
 - Lens or ortho: tentukan saat blocking
@@ -16,8 +16,8 @@
 - Reveal purpose: NOT SPECIFIED — inspect source assets and storyboard
 - Geometry visibility: NOT SPECIFIED — inspect source assets and storyboard
 - Scale transition: NOT SPECIFIED — inspect source assets and storyboard
-- Transition to next (CapCut): Akhir video
-- Spatial anchor: Siluet iPhone utuh
+- Transition to next (CapCut): Potong ke jalan lebar
+- Spatial anchor: Dasbor dan kaca depan
 - Technical QA: NOT SPECIFIED — inspect source assets and storyboard
 
 ## Agent instructions

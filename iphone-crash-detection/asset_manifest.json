@@ -1,6 +1,696 @@
 {
   "schema_version": "1.0",
   "project": "bagaimana-iphone-tahu-mobilmu-kecelakaan",
-  "assets": [],
-  "notes": "Record actual paths and original hashes; do not invent completed assets."
+  "assets": [
+    {
+      "id": "phone_exterior",
+      "path": "assets/phone_exterior.blend",
+      "phase": "master-assets",
+      "status": "complete",
+      "collection": "ASSET_Phone",
+      "dependencies": [],
+      "units": "metres, real scale (0.0715 x 0.0078 x 0.1467 body)",
+      "orientation": "upright, Z up, screen faces -Y",
+      "anchors": {
+        "root": "PHONE_Root",
+        "screen": "ANCHOR_ScreenCenter",
+        "mic": "ANCHOR_MicHole",
+        "interior": "ANCHOR_Interior",
+        "camera_target": "CAM_Target_Phone"
+      },
+      "controls": {
+        "shell_opacity": {
+          "type": "float",
+          "min": 0,
+          "max": 1,
+          "default": 1,
+          "on": "PHONE_Root",
+          "affects": "alpha of frame, back glass and screen (x-ray shots)"
+        },
+        "screen_glow": {
+          "type": "float",
+          "min": 0,
+          "max": 8,
+          "default": 0.3,
+          "on": "PHONE_Root",
+          "affects": "screen emission strength"
+        }
+      },
+      "notes": "Stylised generic smartphone, conceptual illustration; no logo. Interior and screen UI are separate later assets.",
+      "source_sha256": "57ad25b7e8d1262a430c13e03d8a8f1ebca0b998df60ad1310a73b517b155145",
+      "generator": "scripts/build_master_assets.py",
+      "previews": "previews/master_assets/"
+    },
+    {
+      "id": "car_stylized",
+      "path": "assets/car_stylized.blend",
+      "phase": "master-assets",
+      "status": "complete",
+      "collection": "ASSET_Car",
+      "dependencies": [],
+      "units": "metres (4.24 x 1.94 x 1.44)",
+      "orientation": "faces +X, root on ground under centre",
+      "anchors": {
+        "root": "CAR_Root",
+        "front_bumper": "ANCHOR_FrontBumper",
+        "dash": "ANCHOR_Dash",
+        "cabin": "ANCHOR_CabinCenter",
+        "camera_target": "CAM_Target_Car"
+      },
+      "controls": {
+        "wheel_rotation": {
+          "type": "float",
+          "unit": "radians",
+          "default": 0,
+          "on": "CAR_Root",
+          "affects": "Y rotation of all four wheels"
+        },
+        "headlight_glow": {
+          "type": "float",
+          "min": 0,
+          "max": 20,
+          "default": 2,
+          "on": "CAR_Root",
+          "affects": "headlight emission strength"
+        }
+      },
+      "notes": "Toy-styled car, no occupants, no brand. Cabin glass is opaque; interior/cutaway is a separate later asset.",
+      "source_sha256": "5551e64bdcad31cb787e95c282a80531dc6d1ce19a90acbaddee9bad7f577335",
+      "generator": "scripts/build_master_assets.py",
+      "previews": "previews/master_assets/"
+    },
+    {
+      "id": "road_set",
+      "path": "assets/road_set.blend",
+      "phase": "master-assets",
+      "status": "complete",
+      "collection": "ASSET_Road",
+      "dependencies": [],
+      "units": "metres (90 x 44 ground)",
+      "orientation": "road along X; left-hand traffic, car lane at Y=+1.75; barrier at X=14",
+      "anchors": {
+        "root": "ROAD_Root",
+        "car_start": "ANCHOR_CarStart",
+        "car_stop": "ANCHOR_CarStop",
+        "barrier_face": "ANCHOR_BarrierFace",
+        "camera_target": "CAM_Target_Road"
+      },
+      "controls": {},
+      "notes": "Includes barrier (three concrete blocks). Lighting/world belong to the cinematography phase.",
+      "source_sha256": "f38c2da4dfe29cb4b8be9b52483227bc9c1d071ae4a3457516b228407647aa7f",
+      "generator": "scripts/build_master_assets.py",
+      "previews": "previews/master_assets/"
+    },
+    {
+      "id": "phone_interior_concept",
+      "path": "assets/phone_interior_concept.blend",
+      "collection": "ASSET_PhoneInterior",
+      "dependencies": [
+        "phone_exterior"
+      ],
+      "units": "metres, real scale; same axes as phone_exterior, place PHONEINT_Root on the phone's ANCHOR_Interior",
+      "anchors": {
+        "root": "PHONEINT_Root",
+        "processor": "ANCHOR_Processor",
+        "accel": "ANCHOR_Sensor_Accel",
+        "gyro": "ANCHOR_Sensor_Gyro",
+        "baro": "ANCHOR_Sensor_Baro",
+        "gps": "ANCHOR_Sensor_Gps",
+        "mic": "ANCHOR_Sensor_Mic",
+        "camera_target": "CAM_Target_PhoneInterior"
+      },
+      "controls": {
+        "glow_processor": {
+          "type": "float",
+          "min": 0,
+          "max": 30,
+          "default": 0,
+          "on": "PHONEINT_Root",
+          "affects": "emission of the processor marker"
+        },
+        "glow_accel": {
+          "type": "float",
+          "min": 0,
+          "max": 30,
+          "default": 0,
+          "on": "PHONEINT_Root",
+          "affects": "emission of the accel marker"
+        },
+        "glow_gyro": {
+          "type": "float",
+          "min": 0,
+          "max": 30,
+          "default": 0,
+          "on": "PHONEINT_Root",
+          "affects": "emission of the gyro marker"
+        },
+        "glow_baro": {
+          "type": "float",
+          "min": 0,
+          "max": 30,
+          "default": 0,
+          "on": "PHONEINT_Root",
+          "affects": "emission of the baro marker"
+        },
+        "glow_gps": {
+          "type": "float",
+          "min": 0,
+          "max": 30,
+          "default": 0,
+          "on": "PHONEINT_Root",
+          "affects": "emission of the gps marker"
+        },
+        "glow_mic": {
+          "type": "float",
+          "min": 0,
+          "max": 30,
+          "default": 0,
+          "on": "PHONEINT_Root",
+          "affects": "emission of the mic marker"
+        }
+      },
+      "notes": "conceptual illustration: Apple does not publish the shape or position of this part. Marker colours: accel orange, gyro cyan, baro green, gps yellow, mic pink, processor pale blue.",
+      "phase": "mechanism-assets",
+      "status": "complete",
+      "generator": "scripts/build_mechanism_assets.py",
+      "previews": "previews/mechanism_assets/",
+      "source_sha256": "c5012f431d8be06b75866cf6e9e75c77f248e35a6361abed7daa32b70e85e042"
+    },
+    {
+      "id": "sensor_accel_concept",
+      "path": "assets/sensor_accel_concept.blend",
+      "collection": "ASSET_SensorAccel",
+      "dependencies": [],
+      "units": "macro set, about 3 x 2 units; scale is exaggerated, not measured",
+      "anchors": {
+        "root": "ACCEL_Root",
+        "mass": "ANCHOR_AccelMass",
+        "camera_target": "CAM_Target_Accel"
+      },
+      "controls": {
+        "displacement": {
+          "type": "float",
+          "min": -1,
+          "max": 1,
+          "default": 0,
+          "on": "ACCEL_Root",
+          "affects": "mass slides +-0.38 along X; springs stretch/compress and comb-finger overlap changes to match"
+        },
+        "mass_glow": {
+          "type": "float",
+          "min": 0,
+          "max": 20,
+          "default": 0,
+          "on": "ACCEL_Root",
+          "affects": "emission of the mass"
+        }
+      },
+      "notes": "conceptual illustration: Apple does not publish the shape or position of this part. Shows the general idea of a mass on springs that lags behind when the phone is jolted.",
+      "phase": "mechanism-assets",
+      "status": "complete",
+      "generator": "scripts/build_mechanism_assets.py",
+      "previews": "previews/mechanism_assets/",
+      "source_sha256": "2704389b2b58c85065a62c81bcca29607d1a7b4c3dfc4aebf946ed04bd651aa6"
+    },
+    {
+      "id": "sensor_gyro_concept",
+      "path": "assets/sensor_gyro_concept.blend",
+      "collection": "ASSET_SensorGyro",
+      "dependencies": [],
+      "units": "macro set, about 2.6 x 2.6 units; scale is exaggerated, not measured",
+      "anchors": {
+        "root": "GYRO_Root",
+        "ring": "ANCHOR_GyroRing",
+        "camera_target": "CAM_Target_Gyro"
+      },
+      "controls": {
+        "twist": {
+          "type": "float",
+          "min": -1,
+          "max": 1,
+          "default": 0,
+          "on": "GYRO_Root",
+          "affects": "ring turns +-40 degrees relative to the package"
+        },
+        "vibration": {
+          "type": "float",
+          "min": -1,
+          "max": 1,
+          "default": 0,
+          "on": "GYRO_Root",
+          "affects": "ring stretches 14% along X (+) or Y (-)"
+        },
+        "ring_glow": {
+          "type": "float",
+          "min": 0,
+          "max": 20,
+          "default": 0,
+          "on": "GYRO_Root",
+          "affects": "emission of the ring"
+        }
+      },
+      "notes": "conceptual illustration: Apple does not publish the shape or position of this part. Shows the general idea of a vibrating ring whose motion changes when it is rotated.",
+      "phase": "mechanism-assets",
+      "status": "complete",
+      "generator": "scripts/build_mechanism_assets.py",
+      "previews": "previews/mechanism_assets/",
+      "source_sha256": "6413522f83acbf0d02c531ecbf5feaac55fd272b45299c2b4559c8d548b4b6d7"
+    },
+    {
+      "id": "sensor_baro_concept",
+      "path": "assets/sensor_baro_concept.blend",
+      "collection": "ASSET_SensorBaro",
+      "dependencies": [],
+      "units": "macro set, about 2.6 x 2.6 units; scale is exaggerated, not measured",
+      "anchors": {
+        "root": "BARO_Root",
+        "membrane": "ANCHOR_BaroMembrane",
+        "camera_target": "CAM_Target_Baro"
+      },
+      "controls": {
+        "pressure": {
+          "type": "float",
+          "min": -1,
+          "max": 1,
+          "default": 0,
+          "on": "BARO_Root",
+          "affects": "membrane flexes 0.32 units inward (+) or outward (-) via shape key"
+        },
+        "membrane_glow": {
+          "type": "float",
+          "min": 0,
+          "max": 20,
+          "default": 0,
+          "on": "BARO_Root",
+          "affects": "emission of the membrane"
+        }
+      },
+      "notes": "conceptual illustration: Apple does not publish the shape or position of this part. Shows the general idea of a thin membrane over a sealed chamber that flexes with air pressure.",
+      "phase": "mechanism-assets",
+      "status": "complete",
+      "generator": "scripts/build_mechanism_assets.py",
+      "previews": "previews/mechanism_assets/",
+      "source_sha256": "bbd45277fe0c186f0e3b310ecbebcc8bb1fa2733cb72de8ea9fc8df0da40d068"
+    },
+    {
+      "id": "schematic_effects",
+      "path": "assets/schematic_effects.blend",
+      "collection": "ASSET_SchematicEffects",
+      "dependencies": [],
+      "units": "metres / macro scale",
+      "anchors": {
+        "root": "SCHEMATIC_Root",
+        "pressure": "ANCHOR_Effect_Pressure",
+        "sound": "ANCHOR_Effect_Sound",
+        "gps": "ANCHOR_Effect_Gps",
+        "tracers": "ANCHOR_Effect_Tracers",
+        "mini_cars": "ANCHOR_Effect_MiniCars",
+        "call_wave": "ANCHOR_Effect_CallWave"
+      },
+      "controls": {
+        "effect_glow": {
+          "type": "float",
+          "min": 0,
+          "max": 20,
+          "default": 4,
+          "on": "SCHEMATIC_Root",
+          "affects": "Schematic effect glow scale"
+        }
+      },
+      "notes": "Modular schematic effects: pressure wave, sound ripple, GPS trail dots, signal tracers, mini cars, call wave beacon",
+      "phase": "supporting-assets",
+      "status": "complete",
+      "generator": "scripts/build_supporting_assets.py",
+      "source_sha256": "9df59ef0deb984e96b542d017b9cd3cf0755099fa30b5a872caad4512ad3802f"
+    },
+    {
+      "id": "car_interior_dash",
+      "path": "assets/car_interior_dash.blend",
+      "collection": "ASSET_CarDash",
+      "dependencies": [
+        "phone_exterior"
+      ],
+      "units": "metres; forward = +X, right-hand drive; local z=0 is the dash top (place DASH_Root on the car's ANCHOR_Dash)",
+      "anchors": {
+        "root": "DASH_Root",
+        "phone_mount": "ANCHOR_PhoneMount (copy its world transform to PHONE_Root)",
+        "driver_eye": "ANCHOR_DriverEye",
+        "camera_target": "CAM_Target_Dash"
+      },
+      "controls": {
+        "gauge_glow": {
+          "type": "float",
+          "min": 0,
+          "max": 10,
+          "default": 1.2,
+          "on": "DASH_Root",
+          "affects": "instrument cluster emission"
+        }
+      },
+      "notes": "Generic dashboard, no brand, no occupants.",
+      "phase": "mechanism-assets",
+      "status": "complete",
+      "generator": "scripts/build_support_assets.py",
+      "previews": "previews/support_assets/",
+      "source_sha256": "dafec73d8e47f3ddaf6a9dddd6aba9793f2c78a0094a17b65f2538a7875b2974"
+    },
+    {
+      "id": "car_cutaway",
+      "path": "assets/car_cutaway.blend",
+      "collection": "ASSET_CarCutaway",
+      "dependencies": [
+        "car_stylized"
+      ],
+      "units": "metres; same axes and footprint as car_stylized; only the far half (y 0..0.92) exists so the cabin is open toward -Y",
+      "anchors": {
+        "root": "CUT_Root",
+        "dash": "ANCHOR_Dash",
+        "wave_start": "ANCHOR_WaveStart",
+        "cabin": "ANCHOR_CabinCenter",
+        "camera_target": "CAM_Target_Cutaway"
+      },
+      "controls": {},
+      "notes": "Shot-specific cutaway mesh; swap it in for car_stylized at the same transform. Source car asset is untouched.",
+      "phase": "mechanism-assets",
+      "status": "complete",
+      "generator": "scripts/build_support_assets.py",
+      "previews": "previews/support_assets/",
+      "source_sha256": "42aff497154e2316baf89868550e91c3e786d53098b0f57fc1016406a17c53ae"
+    },
+    {
+      "id": "phone_ui_alert",
+      "path": "assets/phone_ui_screens.blend",
+      "collection": "ASSET_PhoneUI",
+      "dependencies": [
+        "phone_exterior"
+      ],
+      "units": "metres; same axes as PHONE_Root, parent PHONEUI_Root to it",
+      "anchors": {
+        "root": "PHONEUI_Root",
+        "group": "PHONEUI_AlertGroup"
+      },
+      "controls": {
+        "alert_visible": {
+          "type": "float",
+          "min": 0,
+          "max": 1,
+          "default": 0,
+          "on": "PHONEUI_Root",
+          "affects": "shows/hides the alert screen (group scale)"
+        },
+        "call_visible": {
+          "type": "float",
+          "min": 0,
+          "max": 1,
+          "default": 0,
+          "on": "PHONEUI_Root",
+          "affects": "shows/hides the calling screen (group scale)"
+        },
+        "countdown": {
+          "type": "float",
+          "min": 0,
+          "max": 1,
+          "default": 0,
+          "on": "PHONEUI_Root",
+          "affects": "lights the 12 countdown dots in turn"
+        },
+        "ui_glow": {
+          "type": "float",
+          "min": 0,
+          "max": 10,
+          "default": 1.5,
+          "on": "PHONEUI_Root",
+          "affects": "background brightness of both screens"
+        }
+      },
+      "notes": "Diegetic icon-only screen (warning triangle, countdown ring, slide button). Generic layout, no text, not a copy of a real interface.",
+      "phase": "mechanism-assets",
+      "status": "complete",
+      "generator": "scripts/build_support_assets.py",
+      "previews": "previews/support_assets/",
+      "source_sha256": "5b8c8f9784d3b4678a5a8eb9b4354e1b79b9faa12690ec81ca360b52032cc148"
+    },
+    {
+      "id": "phone_ui_call",
+      "path": "assets/phone_ui_screens.blend",
+      "collection": "ASSET_PhoneUI",
+      "dependencies": [
+        "phone_exterior"
+      ],
+      "units": "metres; same axes as PHONE_Root, parent PHONEUI_Root to it",
+      "anchors": {
+        "root": "PHONEUI_Root",
+        "group": "PHONEUI_CallGroup"
+      },
+      "controls": {
+        "alert_visible": {
+          "type": "float",
+          "min": 0,
+          "max": 1,
+          "default": 0,
+          "on": "PHONEUI_Root",
+          "affects": "shows/hides the alert screen (group scale)"
+        },
+        "call_visible": {
+          "type": "float",
+          "min": 0,
+          "max": 1,
+          "default": 0,
+          "on": "PHONEUI_Root",
+          "affects": "shows/hides the calling screen (group scale)"
+        },
+        "countdown": {
+          "type": "float",
+          "min": 0,
+          "max": 1,
+          "default": 0,
+          "on": "PHONEUI_Root",
+          "affects": "lights the 12 countdown dots in turn"
+        },
+        "ui_glow": {
+          "type": "float",
+          "min": 0,
+          "max": 10,
+          "default": 1.5,
+          "on": "PHONEUI_Root",
+          "affects": "background brightness of both screens"
+        }
+      },
+      "notes": "Diegetic icon-only screen (handset, signal arcs, location pin). Same file and root as phone_ui_alert.",
+      "phase": "mechanism-assets",
+      "status": "complete",
+      "generator": "scripts/build_support_assets.py",
+      "previews": "previews/support_assets/",
+      "source_sha256": "5b8c8f9784d3b4678a5a8eb9b4354e1b79b9faa12690ec81ca360b52032cc148"
+    },
+    {
+      "id": "pressure_wave_schematic",
+      "path": "assets/fx_schematics.blend",
+      "collection": "ASSET_FX_PressureWave",
+      "dependencies": [
+        "car_cutaway"
+      ],
+      "units": "metres; fronts travel along local +X",
+      "anchors": {
+        "root": "FXWAVE_Root"
+      },
+      "controls": {
+        "travel": {
+          "type": "float",
+          "min": 0,
+          "max": 1,
+          "default": 0,
+          "on": "FXWAVE_Root",
+          "affects": "moves the five fronts 1.0 m"
+        },
+        "strength": {
+          "type": "float",
+          "min": 0,
+          "max": 10,
+          "default": 2,
+          "on": "FXWAVE_Root",
+          "affects": "emission"
+        }
+      },
+      "notes": "illustrative drawing aid, not a visible physical thing",
+      "phase": "mechanism-assets",
+      "status": "complete",
+      "generator": "scripts/build_support_assets.py",
+      "previews": "previews/support_assets/",
+      "source_sha256": "ebd69ce5b86786ac985e0c996de5563fb5dcf1575600db3b706760e07a01a997"
+    },
+    {
+      "id": "sound_ripple_schematic",
+      "path": "assets/fx_schematics.blend",
+      "collection": "ASSET_FX_SoundRipple",
+      "dependencies": [
+        "phone_exterior"
+      ],
+      "units": "metres, phone scale; rings lie in the local XY plane",
+      "anchors": {
+        "root": "FXSOUND_Root"
+      },
+      "controls": {
+        "phase": {
+          "type": "float",
+          "min": 0,
+          "max": 1,
+          "default": 0,
+          "on": "FXSOUND_Root",
+          "affects": "rings shrink onto the centre"
+        },
+        "strength": {
+          "type": "float",
+          "min": 0,
+          "max": 10,
+          "default": 2,
+          "on": "FXSOUND_Root",
+          "affects": "emission"
+        }
+      },
+      "notes": "illustrative drawing aid, not a visible physical thing",
+      "phase": "mechanism-assets",
+      "status": "complete",
+      "generator": "scripts/build_support_assets.py",
+      "previews": "previews/support_assets/",
+      "source_sha256": "ebd69ce5b86786ac985e0c996de5563fb5dcf1575600db3b706760e07a01a997"
+    },
+    {
+      "id": "call_wave_schematic",
+      "path": "assets/fx_schematics.blend",
+      "collection": "ASSET_FX_CallWave",
+      "dependencies": [],
+      "units": "metres; arcs rise along local +Z",
+      "anchors": {
+        "root": "FXCALL_Root"
+      },
+      "controls": {
+        "phase": {
+          "type": "float",
+          "min": 0,
+          "max": 1,
+          "default": 0,
+          "on": "FXCALL_Root",
+          "affects": "arcs rise 0.6 m and widen 1.8x"
+        },
+        "strength": {
+          "type": "float",
+          "min": 0,
+          "max": 10,
+          "default": 2.5,
+          "on": "FXCALL_Root",
+          "affects": "emission"
+        }
+      },
+      "notes": "illustrative drawing aid, not a visible physical thing",
+      "phase": "mechanism-assets",
+      "status": "complete",
+      "generator": "scripts/build_support_assets.py",
+      "previews": "previews/support_assets/",
+      "source_sha256": "ebd69ce5b86786ac985e0c996de5563fb5dcf1575600db3b706760e07a01a997"
+    },
+    {
+      "id": "gps_trail_schematic",
+      "path": "assets/fx_schematics.blend",
+      "collection": "ASSET_FX_GpsTrail",
+      "dependencies": [
+        "road_set"
+      ],
+      "units": "metres; 14 dots from local x=0 to x=24, bunching toward the end; put the root 24 m behind the car's stop point",
+      "anchors": {
+        "root": "FXGPS_Root"
+      },
+      "controls": {
+        "progress": {
+          "type": "float",
+          "min": 0,
+          "max": 1,
+          "default": 0,
+          "on": "FXGPS_Root",
+          "affects": "reveals the dots one after another"
+        },
+        "strength": {
+          "type": "float",
+          "min": 0,
+          "max": 10,
+          "default": 3,
+          "on": "FXGPS_Root",
+          "affects": "emission"
+        }
+      },
+      "notes": "illustrative drawing aid, not a visible physical thing",
+      "phase": "mechanism-assets",
+      "status": "complete",
+      "generator": "scripts/build_support_assets.py",
+      "previews": "previews/support_assets/",
+      "source_sha256": "ebd69ce5b86786ac985e0c996de5563fb5dcf1575600db3b706760e07a01a997"
+    },
+    {
+      "id": "signal_tracers_schematic",
+      "path": "assets/fx_schematics.blend",
+      "collection": "ASSET_FX_SignalTracers",
+      "dependencies": [
+        "phone_interior_concept"
+      ],
+      "units": "metres; same axes as PHONEINT_Root",
+      "anchors": {
+        "root": "FXSIG_Root",
+        "end": "ANCHOR_SignalEnd",
+        "starts": "ANCHOR_SignalStart_<accel|gyro|baro|gps|mic>"
+      },
+      "controls": {
+        "flow": {
+          "type": "float",
+          "min": 0,
+          "max": 1,
+          "default": 0,
+          "on": "FXSIG_Root",
+          "affects": "pulses run from each sensor marker to the processor"
+        },
+        "strength": {
+          "type": "float",
+          "min": 0,
+          "max": 20,
+          "default": 3,
+          "on": "FXSIG_Root",
+          "affects": "emission of traces and pulses"
+        }
+      },
+      "notes": "illustrative drawing aid, not a visible physical thing; paths are schematic, not real circuit traces.",
+      "phase": "mechanism-assets",
+      "status": "complete",
+      "generator": "scripts/build_support_assets.py",
+      "previews": "previews/support_assets/",
+      "source_sha256": "ebd69ce5b86786ac985e0c996de5563fb5dcf1575600db3b706760e07a01a997"
+    },
+    {
+      "id": "mini_cars_instances",
+      "path": "assets/mini_cars.blend",
+      "collection": "ASSET_MiniCars",
+      "dependencies": [],
+      "units": "macro set, about 4.4 x 3.2 units; 72 tiny cars on 9 lanes",
+      "anchors": {
+        "root": "MINI_Root",
+        "camera_target": "CAM_Target_MiniCars"
+      },
+      "controls": {
+        "drive": {
+          "type": "float",
+          "min": 0,
+          "max": 1,
+          "default": 0,
+          "on": "MINI_Root",
+          "affects": "cars roll 1.5 units along +X; six marked cars stop at 0.6 and light up"
+        }
+      },
+      "notes": "Metaphor for training on driving and crash data; illustrative drawing aid, not a visible physical thing",
+      "phase": "mechanism-assets",
+      "status": "complete",
+      "generator": "scripts/build_support_assets.py",
+      "previews": "previews/support_assets/",
+      "source_sha256": "b75f2fea89ac7560fcc246425742d1342f7a69999450c1288a16e010090c6bda"
+    }
+  ],
+  "notes": "Record actual paths and original hashes; do not invent completed assets.",
+  "pending_assets": []
 }

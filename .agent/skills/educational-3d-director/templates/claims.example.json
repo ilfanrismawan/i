@@ -1,0 +1,13 @@
+{
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "REPLACE with precise factual statement",
+      "status": "unverified",
+      "sources": [],
+      "shot_ids": ["SHOT_03"],
+      "visualization_type": "conceptual",
+      "caveat": "Evidence needed before production"
+    }
+  ]
+}

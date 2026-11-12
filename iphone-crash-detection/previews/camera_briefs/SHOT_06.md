@@ -1,7 +1,7 @@
 # CAMERA BRIEF — SHOT_06
 
 - Narrative beat: mechanism
-- Voice-over: Yang pertama merasakan hentakan. Saat mobil berhenti mendadak, ia merasakan dorongan yang sangat kuat.
+- Voice-over: Yang pertama Innammaaqolli innammaa qollaa, merasakan hentakan.
 - New information: Akselerometer merasakan hentakan sangat kuat (Apple: sampai 256 G)
 - Subject: Model konseptual sensor gerak: beban kecil di antara pegas, terdorong ke depan saat benturan
 - Angle: extreme-macro — Makro ekstrem agar gerak beban kecil terbaca

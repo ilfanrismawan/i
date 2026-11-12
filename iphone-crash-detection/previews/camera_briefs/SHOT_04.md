@@ -1,7 +1,7 @@
 # CAMERA BRIEF — SHOT_04
 
 - Narrative beat: context
-- Voice-over: Kok bisa iPhone tahu ada tabrakan?
+- Voice-over: Kok bisa ipon nyaho ada tabrakan?
 - New information: Pertanyaan utama; iPhone dipisahkan dari mobil untuk diperiksa
 - Subject: iPhone tampak depan, simetris, melayang di ruang gelap netral
 - Angle: front-on — Simetri depan menjadikan iPhone objek yang akan dibongkar

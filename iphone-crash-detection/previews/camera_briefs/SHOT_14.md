@@ -1,23 +1,23 @@
 # CAMERA BRIEF — SHOT_14
 
-- Narrative beat: result
-- Voice-over: Kalau tidak ada yang menjawab, iPhone menelepon bantuan dan memberi tahu lokasimu.
-- New information: Tanpa jawaban, iPhone menelepon layanan darurat dan mengirim perkiraan lokasi
-- Subject: iPhone dari sudut rendah; gelombang panggilan skematis naik, pin lokasi muncul di layar
-- Angle: low-angle — Sudut rendah menjadikan iPhone penolong
+- Narrative beat: mechanism
+- Voice-over: Ia sudah belajar dari lebih dari satu juta jam data berkendara dan tabrakan.
+- New information: Algoritmanya dilatih dengan lebih dari satu juta jam data berkendara dan tabrakan
+- Subject: Di atas chip, banyak mobil mini melaju di lintasan; sebagian kecil berhenti mendadak dan ditandai
+- Angle: diagonal-macro — Sudut diagonal memberi kedalaman pada banyaknya lintasan
 - Shot size: medium
-- Movement: crane — Kamera naik mengikuti gelombang panggilan keluar dari mobil
-- Movement start: iPhone di dasbor dari bawah
-- Movement end: Atap mobil terbuka ke langit, gelombang naik
-- Focal target: PHONE_Body
+- Movement: dolly-pull — Mundur untuk memperlihatkan betapa banyaknya contoh
+- Movement start: Satu mobil mini
+- Movement end: Ratusan lintasan di atas chip
+- Focal target: DATA_MiniCars
 - Camera rig: CAM_SHOT_14
 - Lens or ortho: tentukan saat blocking
 - Virtual reveal: none
 - Reveal purpose: NOT SPECIFIED — inspect source assets and storyboard
 - Geometry visibility: NOT SPECIFIED — inspect source assets and storyboard
 - Scale transition: NOT SPECIFIED — inspect source assets and storyboard
-- Transition to next (CapCut): Potong ke jalan lebar
-- Spatial anchor: Dasbor dan kaca depan
+- Transition to next (CapCut): Potong ke layar iPhone
+- Spatial anchor: Chip pusat dari SHOT_13
 - Technical QA: NOT SPECIFIED — inspect source assets and storyboard
 
 ## Agent instructions

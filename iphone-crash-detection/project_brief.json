@@ -4,7 +4,7 @@
   "audience": "Penonton TikTok/Reels Indonesia; bahasa setara anak 7 tahun",
   "language": "id-ID",
   "narrative_question": "Bagaimana iPhone tahu mobilmu kecelakaan?",
-  "duration_seconds": 60,
+  "duration_seconds": 68.911,
   "fps": 30,
   "resolution": [
     1080,
@@ -14,10 +14,10 @@
   "render_engine": "Eevee ONLY",
   "editorial_assembly": "CapCut Pro ONLY",
   "shot_delivery": "one verified shot at a time; CapCut edit gate",
-  "voiceover_source": "belum direkam; durasi shot masih perkiraan",
+  "voiceover_source": "audio/voice_over.mp3 (68.911 s, rekaman pengguna); naskah: script/voiceover_id_revisi.txt",
   "existing_assets_to_inspect": [],
   "scientific_claims_to_verify": [],
-  "production_status": "phase 1 storyboard drafted; waiting for user approval",
+  "production_status": "all planned assets complete (17 ids); next: phase 7 cinematography / shot scenes, starting with SHOT_01",
   "format": "mechanism reveal",
   "claims_register": "research/claims.json",
   "content_safety": "Tabrakan digambar ringan dan bergaya; tidak ada orang terluka; tanpa CTA"

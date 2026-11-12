@@ -1,23 +1,23 @@
 # CAMERA BRIEF — SHOT_08
 
 - Narrative beat: mechanism
-- Voice-over: Yang ketiga merasakan tekanan udara. Saat tabrakan, udara di dalam mobil bisa berubah tiba-tiba.
-- New information: Barometer dapat mendeteksi perubahan tekanan udara kabin
-- Subject: Potongan kabin mobil; gelombang tekanan skematis bergerak menuju iPhone
-- Angle: side-cross-section — Potongan samping memperlihatkan ruang kabin yang tertutup
+- Voice-over: Yang kedua merasakan putaran. Ia tahu kalau mobil berputar atau terguling.
+- New information: Giroskop merasakan putaran dan gulingan mobil
+- Subject: Mobil mainan berputar pelan di atas meja putar; model sensor putaran ikut miring
+- Angle: top-down — Dari atas, putaran mobil paling mudah dibaca
 - Shot size: medium
-- Movement: lateral-truck — Bergeser mengikuti gelombang tekanan dari depan kabin ke iPhone
-- Movement start: Bagian depan kabin
-- Movement end: iPhone di dasbor saat gelombang tiba
-- Focal target: CABIN_PressureWave
+- Movement: crane — Kamera turun dari atas menuju sensor untuk menghubungkan putaran mobil dengan sensor
+- Movement start: Tampak atas mobil berputar
+- Movement end: Lebih rendah, sensor putaran di latar depan ikut berputar
+- Focal target: CAR_Body
 - Camera rig: CAM_SHOT_08
 - Lens or ortho: tentukan saat blocking
-- Virtual reveal: interior_pov
-- Reveal purpose: Tekanan udara tidak terlihat; potongan kabin menunjukkan di mana perubahan itu terjadi
-- Geometry visibility: Mesh potongan kabin khusus; gelombang digambar sebagai garis skematis, bukan asap
+- Virtual reveal: none
+- Reveal purpose: NOT SPECIFIED — inspect source assets and storyboard
+- Geometry visibility: NOT SPECIFIED — inspect source assets and storyboard
 - Scale transition: NOT SPECIFIED — inspect source assets and storyboard
-- Transition to next (CapCut): Potong ke makro lubang mikrofon
-- Spatial anchor: Setir dan dasbor
+- Transition to next (CapCut): Potong ke kabin mobil
+- Spatial anchor: Jalan dan pembatas terlihat dari atas
 - Technical QA: NOT SPECIFIED — inspect source assets and storyboard
 
 ## Agent instructions

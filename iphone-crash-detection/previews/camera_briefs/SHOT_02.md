@@ -1,7 +1,7 @@
 # CAMERA BRIEF — SHOT_02
 
 - Narrative beat: hook
-- Voice-over: Tiba-tiba, mobilnya menabrak dengan keras.
+- Voice-over: Tiba-tiba, INNAMMAA SYUDUDUU!! mobilnya menabrak dengan keras.
 - New information: Kejadian pemicu: mobil berhenti mendadak karena benturan depan
 - Subject: Mobil menabrak pembatas jalan, tanpa orang terlihat
 - Angle: side-profile — Profil samping memperlihatkan mobil berhenti mendadak

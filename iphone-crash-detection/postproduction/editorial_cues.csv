@@ -1,0 +1,19 @@
+﻿shot_id,in_seconds,out_seconds,transition_in,transition_sfx,scene_sfx,bgm_notes,manual_review
+SHOT_01,0.0,2.367,hard cut,none / subtle whoosh if transition is used,select sound matching visible action; never imply false physics,low-volume ambience beneath voice,YES
+SHOT_02,2.367,7.233,match cut / short dissolve only if motivated,none / subtle whoosh if transition is used,select sound matching visible action; never imply false physics,low-volume ambience beneath voice,YES
+SHOT_03,7.233,10.533,match cut / short dissolve only if motivated,none / subtle whoosh if transition is used,select sound matching visible action; never imply false physics,low-volume ambience beneath voice,YES
+SHOT_04,10.533,12.767,match cut / short dissolve only if motivated,none / subtle whoosh if transition is used,select sound matching visible action; never imply false physics,low-volume ambience beneath voice,YES
+SHOT_05,12.767,17.3,match cut / short dissolve only if motivated,none / subtle whoosh if transition is used,select sound matching visible action; never imply false physics,low-volume ambience beneath voice,YES
+SHOT_06,17.3,21.133,match cut / short dissolve only if motivated,none / subtle whoosh if transition is used,select sound matching visible action; never imply false physics,low-volume ambience beneath voice,YES
+SHOT_07,21.133,26.367,match cut / short dissolve only if motivated,none / subtle whoosh if transition is used,select sound matching visible action; never imply false physics,low-volume ambience beneath voice,YES
+SHOT_08,26.367,31.267,match cut / short dissolve only if motivated,none / subtle whoosh if transition is used,select sound matching visible action; never imply false physics,low-volume ambience beneath voice,YES
+SHOT_09,31.267,35.3,match cut / short dissolve only if motivated,none / subtle whoosh if transition is used,select sound matching visible action; never imply false physics,low-volume ambience beneath voice,YES
+SHOT_10,35.3,38.833,match cut / short dissolve only if motivated,none / subtle whoosh if transition is used,select sound matching visible action; never imply false physics,low-volume ambience beneath voice,YES
+SHOT_11,38.833,41.3,match cut / short dissolve only if motivated,none / subtle whoosh if transition is used,select sound matching visible action; never imply false physics,low-volume ambience beneath voice,YES
+SHOT_12,41.3,45.6,match cut / short dissolve only if motivated,none / subtle whoosh if transition is used,select sound matching visible action; never imply false physics,low-volume ambience beneath voice,YES
+SHOT_13,45.6,48.067,match cut / short dissolve only if motivated,none / subtle whoosh if transition is used,select sound matching visible action; never imply false physics,low-volume ambience beneath voice,YES
+SHOT_14,48.067,52.667,match cut / short dissolve only if motivated,none / subtle whoosh if transition is used,select sound matching visible action; never imply false physics,low-volume ambience beneath voice,YES
+SHOT_15,52.667,56.4,match cut / short dissolve only if motivated,none / subtle whoosh if transition is used,select sound matching visible action; never imply false physics,low-volume ambience beneath voice,YES
+SHOT_16,56.4,60.6,match cut / short dissolve only if motivated,none / subtle whoosh if transition is used,select sound matching visible action; never imply false physics,low-volume ambience beneath voice,YES
+SHOT_17,60.6,63.633,match cut / short dissolve only if motivated,none / subtle whoosh if transition is used,select sound matching visible action; never imply false physics,low-volume ambience beneath voice,YES
+SHOT_18,63.633,68.9,match cut / short dissolve only if motivated,none / subtle whoosh if transition is used,select sound matching visible action; never imply false physics,low-volume ambience beneath voice,YES

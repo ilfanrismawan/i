@@ -1,23 +1,23 @@
 # CAMERA BRIEF — SHOT_09
 
 - Narrative beat: mechanism
-- Voice-over: Mikrofon mendengar suara yang sangat keras.
-- New information: Mikrofon mengenali suara keras khas tabrakan
-- Subject: Lubang mikrofon di bawah iPhone; riak suara skematis masuk
-- Angle: profile-macro — Profil bawah iPhone memperlihatkan lubang mikrofon yang nyata
+- Voice-over: Yang ketiga, DUARR MÉMÉKK!!
+- New information: Ada sensor ketiga yang merasakan tekanan udara
+- Subject: Model konseptual sensor tekanan: selaput tipis yang melendut saat udara menekan
+- Angle: extreme-macro — Makro ekstrem agar lendutan selaput terbaca
 - Shot size: extreme-close
-- Movement: dolly-push — Dorong pelan mengikuti riak suara masuk
-- Movement start: Tepi bawah iPhone
-- Movement end: Lubang mikrofon mengisi bingkai
-- Focal target: PHONE_MicHole
+- Movement: locked — Kamera diam; yang bergerak adalah selaput sensor
+- Movement start: Selaput rata
+- Movement end: Selaput melendut lalu kembali
+- Focal target: SENSOR_Baro_Membrane
 - Camera rig: CAM_SHOT_09
 - Lens or ortho: tentukan saat blocking
 - Virtual reveal: none
 - Reveal purpose: NOT SPECIFIED — inspect source assets and storyboard
 - Geometry visibility: NOT SPECIFIED — inspect source assets and storyboard
 - Scale transition: NOT SPECIFIED — inspect source assets and storyboard
-- Transition to next (CapCut): Potong ke tampak atas jalan
-- Spatial anchor: Tepi bawah iPhone dan port
+- Transition to next (CapCut): Potong ke potongan kabin mobil
+- Spatial anchor: Garis tepi chip terlihat di pinggir bingkai
 - Technical QA: NOT SPECIFIED — inspect source assets and storyboard
 
 ## Agent instructions

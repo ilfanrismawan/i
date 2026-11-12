@@ -1,7 +1,7 @@
 # CAMERA BRIEF — SHOT_05
 
 - Narrative beat: reveal
-- Voice-over: Di dalam iPhone 14 dan yang lebih baru, ada beberapa alat perasa kecil.
+- Voice-over: Di dalam ipon 14 dan yang lebih baru, ada beberapa alat perasa kecil.
 - New information: Di dalam iPhone ada beberapa sensor berbeda yang bekerja untuk fitur ini
 - Subject: Cangkang iPhone memudar, papan sirkuit dan lima titik sensor terlihat
 - Angle: three-quarter — Sudut tiga perempat memberi kedalaman pada lapisan dalam

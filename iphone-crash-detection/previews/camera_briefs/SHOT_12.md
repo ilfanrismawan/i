@@ -1,23 +1,23 @@
 # CAMERA BRIEF — SHOT_12
 
 - Narrative beat: mechanism
-- Voice-over: Ia sudah belajar dari lebih dari satu juta jam data berkendara dan tabrakan.
-- New information: Algoritmanya dilatih dengan lebih dari satu juta jam data berkendara dan tabrakan
-- Subject: Di atas chip, banyak mobil mini melaju di lintasan; sebagian kecil berhenti mendadak dan ditandai
-- Angle: diagonal-macro — Sudut diagonal memberi kedalaman pada banyaknya lintasan
-- Shot size: medium
-- Movement: dolly-pull — Mundur untuk memperlihatkan betapa banyaknya contoh
-- Movement start: Satu mobil mini
-- Movement end: Ratusan lintasan di atas chip
-- Focal target: DATA_MiniCars
+- Voice-over: Dan GPS tahu, mobil yang tadi melaju sekarang tiba-tiba berhenti.
+- New information: GPS memberi masukan perubahan kecepatan
+- Subject: Tampak atas jalan; jejak titik posisi mobil rapat lalu berhenti di pembatas
+- Angle: overhead — Dari atas, jejak posisi memperlihatkan laju lalu berhenti
+- Shot size: wide
+- Movement: locked — Diam agar jarak antar titik bisa dibandingkan
+- Movement start: Titik-titik muncul berjarak lebar
+- Movement end: Titik menumpuk di pembatas
+- Focal target: CAR_TrailDots
 - Camera rig: CAM_SHOT_12
 - Lens or ortho: tentukan saat blocking
 - Virtual reveal: none
 - Reveal purpose: NOT SPECIFIED — inspect source assets and storyboard
 - Geometry visibility: NOT SPECIFIED — inspect source assets and storyboard
 - Scale transition: NOT SPECIFIED — inspect source assets and storyboard
-- Transition to next (CapCut): Potong ke layar iPhone
-- Spatial anchor: Chip pusat dari SHOT_11
+- Transition to next (CapCut): Potong ke dalam iPhone
+- Spatial anchor: Pembatas yang sama dari SHOT_02
 - Technical QA: NOT SPECIFIED — inspect source assets and storyboard
 
 ## Agent instructions

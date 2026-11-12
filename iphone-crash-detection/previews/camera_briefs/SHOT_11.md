@@ -1,23 +1,23 @@
 # CAMERA BRIEF — SHOT_11
 
 - Narrative beat: mechanism
-- Voice-over: iPhone menggabungkan semua tanda itu.
-- New information: Tanda dari semua sensor digabung, bukan dinilai satu per satu
-- Subject: Di dalam iPhone, lima garis sinyal skematis dari tiap sensor bertemu di satu chip
-- Angle: isometric-cutaway — Isometrik memperlihatkan kelima jalur sekaligus
-- Shot size: close
-- Movement: follow — Kamera mengikuti satu jalur sampai titik temu
-- Movement start: Titik sensor gerak
-- Movement end: Chip pusat dengan lima jalur tiba
-- Focal target: PHONE_ProcessorChip
+- Voice-over: Mikrofon mendengar suara yang sangat keras.
+- New information: Mikrofon mengenali suara keras khas tabrakan
+- Subject: Lubang mikrofon di bawah iPhone; riak suara skematis masuk
+- Angle: profile-macro — Profil bawah iPhone memperlihatkan lubang mikrofon yang nyata
+- Shot size: extreme-close
+- Movement: dolly-push — Dorong pelan mengikuti riak suara masuk
+- Movement start: Tepi bawah iPhone
+- Movement end: Lubang mikrofon mengisi bingkai
+- Focal target: PHONE_MicHole
 - Camera rig: CAM_SHOT_11
 - Lens or ortho: tentukan saat blocking
-- Virtual reveal: signal_follow
-- Reveal purpose: Menunjukkan penggabungan data sebagai jalur skematis, bukan listrik yang terlihat
+- Virtual reveal: none
+- Reveal purpose: NOT SPECIFIED — inspect source assets and storyboard
 - Geometry visibility: NOT SPECIFIED — inspect source assets and storyboard
 - Scale transition: NOT SPECIFIED — inspect source assets and storyboard
-- Transition to next (CapCut): Potong ke tampilan belajar dari data
-- Spatial anchor: Papan sirkuit dari SHOT_05
+- Transition to next (CapCut): Potong ke tampak atas jalan
+- Spatial anchor: Tepi bawah iPhone dan port
 - Technical QA: NOT SPECIFIED — inspect source assets and storyboard
 
 ## Agent instructions

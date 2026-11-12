@@ -1,7 +1,7 @@
 # CAMERA BRIEF — SHOT_03
 
 - Narrative beat: hook
-- Voice-over: Tak lama kemudian, iPhone menelepon bantuan sendiri.
+- Voice-over: Tak lama kemudian, si ipon menelepon bantuan sendiri.
 - New information: Hasil akhir yang mengejutkan: iPhone memanggil bantuan tanpa disentuh
 - Subject: Layar iPhone di dasbor menampilkan peringatan darurat (UI diegetik bergaya umum)
 - Angle: over-shoulder — Dari arah kursi pengemudi, layar terbaca tanpa menampilkan orang

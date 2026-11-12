@@ -1,0 +1,86 @@
+{
+  "shots": {
+    "SHOT_01": {
+      "status": "WAITING_FOR_CAPCUT_IMPORT",
+      "clip": "C:\\Users\\HOG-PC001\\Documents\\i\\iphone-crash-detection\\renders\\shot_01.mp4",
+      "technical_media_verified": true,
+      "visual_qa_user_confirmation": false
+    },
+    "SHOT_02": {
+      "status": "WAITING_FOR_CAPCUT_IMPORT",
+      "clip": "C:\\Users\\HOG-PC001\\Documents\\i\\iphone-crash-detection\\renders\\shot_02.mp4",
+      "technical_media_verified": true,
+      "visual_qa_user_confirmation": false
+    },
+    "SHOT_03": {
+      "status": "WAITING_FOR_CAPCUT_IMPORT",
+      "clip": "C:\\Users\\HOG-PC001\\Documents\\i\\iphone-crash-detection\\renders\\shot_03.mp4",
+      "technical_media_verified": true,
+      "visual_qa_user_confirmation": false
+    },
+    "SHOT_04": {
+      "status": "WAITING_FOR_CAPCUT_IMPORT",
+      "clip": "C:\\Users\\HOG-PC001\\Documents\\i\\iphone-crash-detection\\renders\\shot_04.mp4",
+      "technical_media_verified": true,
+      "visual_qa_user_confirmation": false
+    },
+    "SHOT_05": {
+      "status": "WAITING_FOR_CAPCUT_IMPORT",
+      "clip": "C:\\Users\\HOG-PC001\\Documents\\i\\iphone-crash-detection\\renders\\shot_05.mp4",
+      "technical_media_verified": true,
+      "visual_qa_user_confirmation": false
+    },
+    "SHOT_06": {
+      "status": "PENDING_CAPCUT_HANDOFF",
+      "clip": ""
+    },
+    "SHOT_07": {
+      "status": "PENDING_CAPCUT_HANDOFF",
+      "clip": ""
+    },
+    "SHOT_08": {
+      "status": "PENDING_CAPCUT_HANDOFF",
+      "clip": ""
+    },
+    "SHOT_09": {
+      "status": "PENDING_CAPCUT_HANDOFF",
+      "clip": ""
+    },
+    "SHOT_10": {
+      "status": "PENDING_CAPCUT_HANDOFF",
+      "clip": ""
+    },
+    "SHOT_11": {
+      "status": "PENDING_CAPCUT_HANDOFF",
+      "clip": ""
+    },
+    "SHOT_12": {
+      "status": "PENDING_CAPCUT_HANDOFF",
+      "clip": ""
+    },
+    "SHOT_13": {
+      "status": "PENDING_CAPCUT_HANDOFF",
+      "clip": ""
+    },
+    "SHOT_14": {
+      "status": "PENDING_CAPCUT_HANDOFF",
+      "clip": ""
+    },
+    "SHOT_15": {
+      "status": "PENDING_CAPCUT_HANDOFF",
+      "clip": ""
+    },
+    "SHOT_16": {
+      "status": "PENDING_CAPCUT_HANDOFF",
+      "clip": ""
+    },
+    "SHOT_17": {
+      "status": "PENDING_CAPCUT_HANDOFF",
+      "clip": ""
+    },
+    "SHOT_18": {
+      "status": "PENDING_CAPCUT_HANDOFF",
+      "clip": ""
+    }
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "blender": "5.3.0",
+  "assets": {
+    "phone_exterior": {
+      "collection": true,
+      "root": true,
+      "objects": 26,
+      "meshes": 21,
+      "bbox_min": [
+        -0.0365,
+        -0.0043,
+        -0.0738
+      ],
+      "bbox_max": [
+        0.0365,
+        0.0082,
+        0.0733
+      ],
+      "size_m": [
+        0.0729,
+        0.0125,
+        0.1471
+      ],
+      "missing_anchors": [],
+      "missing_controls": [],
+      "control_tests": {
+        "shell_opacity=0.25 -> frame alpha": 0.25,
+        "screen_glow=4 -> emission strength": 4.0
+      }
+    },
+    "car_stylized": {
+      "collection": true,
+      "root": true,
+      "objects": 45,
+      "meshes": 40,
+      "bbox_min": [
+        -2.12,
+        -0.97,
+        0.0
+      ],
+      "bbox_max": [
+        2.12,
+        0.97,
+        1.435
+      ],
+      "size_m": [
+        4.24,
+        1.94,
+        1.435
+      ],
+      "missing_anchors": [],
+      "missing_controls": [],
+      "control_tests": {
+        "wheel_rotation=1.5 -> wheel Y rotation": 1.5
+      }
+    },
+    "road_set": {
+      "collection": true,
+      "root": true,
+      "objects": 55,
+      "meshes": 50,
+      "bbox_min": [
+        -45.0,
+        -22.0,
+        -0.12
+      ],
+      "bbox_max": [
+        45.0,
+        22.0,
+        6.0
+      ],
+      "size_m": [
+        90.0,
+        44.0,
+        6.12
+      ],
+      "missing_anchors": [],
+      "missing_controls": [],
+      "control_tests": {}
+    }
+  },
+  "renders": [
+    {
+      "file": "previews/master_assets/01_phone_front.png",
+      "exists": true,
+      "bytes": 474260
+    },
+    {
+      "file": "previews/master_assets/02_phone_back.png",
+      "exists": true,
+      "bytes": 476156
+    },
+    {
+      "file": "previews/master_assets/03_phone_bottom_macro.png",
+      "exists": true,
+      "bytes": 503870
+    },
+    {
+      "file": "previews/master_assets/04_phone_shell_opacity_030.png",
+      "exists": true,
+      "bytes": 770332
+    },
+    {
+      "file": "previews/master_assets/05_car_three_quarter.png",
+      "exists": true,
+      "bytes": 536890
+    },
+    {
+      "file": "previews/master_assets/06_car_rear_three_quarter.png",
+      "exists": true,
+      "bytes": 574627
+    },
+    {
+      "file": "previews/master_assets/07_road_wide_shot01_framing.png",
+      "exists": true,
+      "bytes": 569052
+    },
+    {
+      "file": "previews/master_assets/08_car_at_barrier_profile.png",
+      "exists": true,
+      "bytes": 503290
+    },
+    {
+      "file": "previews/master_assets/09_road_top_down.png",
+      "exists": true,
+      "bytes": 503998
+    }
+  ],
+  "render_engine": "BLENDER_EEVEE",
+  "car_stop_contact_gap_m": 0.0
+}

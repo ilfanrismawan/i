@@ -30,7 +30,8 @@
         }
       ],
       "shot_ids": [
-        "SHOT_06"
+        "SHOT_06",
+        "SHOT_07"
       ],
       "visualization_type": "conceptual",
       "caveat": "Bentuk dan letak komponen di dalam iPhone adalah ilustrasi konseptual; Apple tidak mempublikasikan detailnya. Angka 256 G tidak diucapkan di VO; hanya 'sangat kuat'."
@@ -47,7 +48,7 @@
         }
       ],
       "shot_ids": [
-        "SHOT_07"
+        "SHOT_08"
       ],
       "visualization_type": "conceptual",
       "caveat": "Bentuk dan letak komponen di dalam iPhone adalah ilustrasi konseptual; Apple tidak mempublikasikan detailnya."
@@ -64,7 +65,8 @@
         }
       ],
       "shot_ids": [
-        "SHOT_08"
+        "SHOT_09",
+        "SHOT_10"
       ],
       "visualization_type": "illustrative",
       "caveat": "Apple tidak menyebut penyebab perubahan tekanan di teks yang diperiksa; VO tidak menyebut kantong udara."
@@ -86,7 +88,7 @@
         }
       ],
       "shot_ids": [
-        "SHOT_09"
+        "SHOT_11"
       ],
       "visualization_type": "illustrative",
       "caveat": "Riak suara adalah gambar bantu, bukan sesuatu yang terlihat."
@@ -104,8 +106,8 @@
       ],
       "shot_ids": [
         "SHOT_03",
-        "SHOT_13",
-        "SHOT_14"
+        "SHOT_15",
+        "SHOT_16"
       ],
       "visualization_type": "illustrative",
       "caveat": "UI digambar bergaya umum, bukan salinan antarmuka Apple."
@@ -128,8 +130,8 @@
       ],
       "shot_ids": [
         "SHOT_05",
-        "SHOT_11",
-        "SHOT_16"
+        "SHOT_13",
+        "SHOT_18"
       ],
       "visualization_type": "conceptual",
       "caveat": "Bentuk dan letak komponen di dalam iPhone adalah ilustrasi konseptual; Apple tidak mempublikasikan detailnya."
@@ -146,7 +148,7 @@
         }
       ],
       "shot_ids": [
-        "SHOT_07"
+        "SHOT_08"
       ],
       "visualization_type": "illustrative",
       "caveat": "Mobil digambar berputar pelan, bukan terguling keras."
@@ -163,7 +165,7 @@
         }
       ],
       "shot_ids": [
-        "SHOT_10"
+        "SHOT_12"
       ],
       "visualization_type": "illustrative",
       "caveat": "Jejak titik adalah gambar bantu."
@@ -180,7 +182,7 @@
         }
       ],
       "shot_ids": [
-        "SHOT_12"
+        "SHOT_14"
       ],
       "visualization_type": "illustrative",
       "caveat": "Klaim Apple tahun 2022; tidak diverifikasi pihak lain."
@@ -197,7 +199,7 @@
         }
       ],
       "shot_ids": [
-        "SHOT_14"
+        "SHOT_16"
       ],
       "visualization_type": "illustrative",
       "caveat": "Berbagi lokasi bervariasi menurut negara/wilayah."
@@ -214,7 +216,7 @@
         }
       ],
       "shot_ids": [
-        "SHOT_15"
+        "SHOT_17"
       ],
       "visualization_type": "illustrative",
       "caveat": ""

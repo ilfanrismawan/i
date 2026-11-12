@@ -1,0 +1,12 @@
+{
+  "topics": [
+    {
+      "id": "blind-spot",
+      "title": "Kenapa kita tidak melihat titik buta mata?",
+      "niche": "biology",
+      "scores": {"curiosity": 5, "familiarity": 4, "visualizability": 5, "learning_value": 5, "differentiation": 4, "feasibility": 4},
+      "research_status": "research_required",
+      "sources": []
+    }
+  ]
+}

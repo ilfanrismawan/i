@@ -1,0 +1,128 @@
+{
+  "blender": "5.3.0",
+  "assets": {
+    "phone_interior_concept": {
+      "objects": 27,
+      "bbox_min": [
+        -0.032,
+        -0.0015,
+        -0.0722
+      ],
+      "bbox_max": [
+        0.031,
+        0.0034,
+        0.0663
+      ],
+      "missing_anchors": [],
+      "missing_controls": [],
+      "control_tests": {
+        "glow_accel=5 -> emission strength": 5.0
+      },
+      "fits_inside_phone_shell": true
+    },
+    "sensor_accel_concept": {
+      "objects": 67,
+      "bbox_min": [
+        -1.5,
+        -1.0,
+        -0.08
+      ],
+      "bbox_max": [
+        1.5,
+        1.0,
+        0.3
+      ],
+      "missing_anchors": [],
+      "missing_controls": [],
+      "control_tests": {
+        "displacement=1 -> mass x (expect 0.38)": 0.38,
+        "displacement=1 -> west spring length (expect 1.03)": 1.03,
+        "displacement=1 -> east spring length (expect 0.27)": 0.27,
+        "displacement=1 -> clearance moving finger tip to fixed block (must be > 0)": 0.02
+      }
+    },
+    "sensor_gyro_concept": {
+      "objects": 44,
+      "bbox_min": [
+        -1.3,
+        -1.3,
+        -0.08
+      ],
+      "bbox_max": [
+        1.3,
+        1.3,
+        0.3
+      ],
+      "missing_anchors": [],
+      "missing_controls": [],
+      "control_tests": {
+        "twist=1 -> rotor Z degrees (expect 40)": 40.0,
+        "vibration=1 -> rotor scale x,y (expect 1.14, 0.86)": [
+          1.14,
+          0.86
+        ]
+      }
+    },
+    "sensor_baro_concept": {
+      "objects": 24,
+      "bbox_min": [
+        -1.3,
+        -1.3,
+        -0.08
+      ],
+      "bbox_max": [
+        1.3,
+        1.3,
+        0.47
+      ],
+      "missing_anchors": [],
+      "missing_controls": [],
+      "control_tests": {
+        "pressure=1 -> lowest membrane point, local z (expect about -0.33)": -0.332
+      }
+    }
+  },
+  "renders": [
+    {
+      "file": "previews/mechanism_assets/01_interior_alone_front.png",
+      "exists": true
+    },
+    {
+      "file": "previews/mechanism_assets/02_interior_in_shell_xray_three_quarter.png",
+      "exists": true
+    },
+    {
+      "file": "previews/mechanism_assets/03_shell_solid_hides_interior.png",
+      "exists": true
+    },
+    {
+      "file": "previews/mechanism_assets/04_accel_rest.png",
+      "exists": true
+    },
+    {
+      "file": "previews/mechanism_assets/05_accel_displacement_plus1.png",
+      "exists": true
+    },
+    {
+      "file": "previews/mechanism_assets/06_gyro_rest.png",
+      "exists": true
+    },
+    {
+      "file": "previews/mechanism_assets/07_gyro_twist_vibration.png",
+      "exists": true
+    },
+    {
+      "file": "previews/mechanism_assets/08_baro_rest.png",
+      "exists": true
+    },
+    {
+      "file": "previews/mechanism_assets/09_baro_pressure_plus1.png",
+      "exists": true
+    },
+    {
+      "file": "previews/mechanism_assets/10_baro_pressure_minus1.png",
+      "exists": true
+    }
+  ],
+  "render_engine": "BLENDER_EEVEE"
+}

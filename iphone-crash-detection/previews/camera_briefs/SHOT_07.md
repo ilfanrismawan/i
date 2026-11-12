@@ -1,23 +1,23 @@
 # CAMERA BRIEF — SHOT_07
 
 - Narrative beat: mechanism
-- Voice-over: Yang kedua merasakan putaran. Ia tahu kalau mobil berputar atau terguling.
-- New information: Giroskop merasakan putaran dan gulingan mobil
-- Subject: Mobil mainan berputar pelan di atas meja putar; model sensor putaran ikut miring
-- Angle: top-down — Dari atas, putaran mobil paling mudah dibaca
-- Shot size: medium
-- Movement: crane — Kamera turun dari atas menuju sensor untuk menghubungkan putaran mobil dengan sensor
-- Movement start: Tampak atas mobil berputar
-- Movement end: Lebih rendah, sensor putaran di latar depan ikut berputar
-- Focal target: CAR_Body
+- Voice-over: Saat mobil berhenti mendadak, ia merasakan dorongan yang sangat kuat.
+- New information: Hentakan mobil dan gerak beban sensor terjadi bersamaan (sebab-akibat)
+- Subject: Bagian depan mobil berhenti mendadak di pembatas; di latar depan, beban sensor terdorong searah
+- Angle: side-profile — Profil samping menyamakan arah gerak mobil dan arah dorongan beban
+- Shot size: close
+- Movement: dolly-push — Dorong pelan ke titik benturan untuk menekankan hentakan
+- Movement start: Mobil mendekati pembatas
+- Movement end: Mobil berhenti, beban sensor di latar depan terdorong
+- Focal target: CAR_FrontBumper
 - Camera rig: CAM_SHOT_07
 - Lens or ortho: tentukan saat blocking
 - Virtual reveal: none
 - Reveal purpose: NOT SPECIFIED — inspect source assets and storyboard
 - Geometry visibility: NOT SPECIFIED — inspect source assets and storyboard
 - Scale transition: NOT SPECIFIED — inspect source assets and storyboard
-- Transition to next (CapCut): Potong ke kabin mobil
-- Spatial anchor: Jalan dan pembatas terlihat dari atas
+- Transition to next (CapCut): Potong ke tampak atas mobil berputar
+- Spatial anchor: Pembatas yang sama dari SHOT_02
 - Technical QA: NOT SPECIFIED — inspect source assets and storyboard
 
 ## Agent instructions

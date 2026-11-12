@@ -1,23 +1,23 @@
 # CAMERA BRIEF — SHOT_10
 
 - Narrative beat: mechanism
-- Voice-over: Dan GPS tahu, mobil yang tadi melaju sekarang tiba-tiba berhenti.
-- New information: GPS memberi masukan perubahan kecepatan
-- Subject: Tampak atas jalan; jejak titik posisi mobil rapat lalu berhenti di pembatas
-- Angle: overhead — Dari atas, jejak posisi memperlihatkan laju lalu berhenti
-- Shot size: wide
-- Movement: locked — Diam agar jarak antar titik bisa dibandingkan
-- Movement start: Titik-titik muncul berjarak lebar
-- Movement end: Titik menumpuk di pembatas
-- Focal target: CAR_TrailDots
+- Voice-over: merasakan tekanan udara. Saat tabrakan, udara di dalam mobil bisa berubah tiba-tiba.
+- New information: Barometer dapat mendeteksi perubahan tekanan udara kabin
+- Subject: Potongan kabin mobil; gelombang tekanan skematis bergerak menuju iPhone
+- Angle: side-cross-section — Potongan samping memperlihatkan ruang kabin yang tertutup
+- Shot size: medium
+- Movement: lateral-truck — Bergeser mengikuti gelombang tekanan dari depan kabin ke iPhone
+- Movement start: Bagian depan kabin
+- Movement end: iPhone di dasbor saat gelombang tiba
+- Focal target: CABIN_PressureWave
 - Camera rig: CAM_SHOT_10
 - Lens or ortho: tentukan saat blocking
-- Virtual reveal: none
-- Reveal purpose: NOT SPECIFIED — inspect source assets and storyboard
-- Geometry visibility: NOT SPECIFIED — inspect source assets and storyboard
+- Virtual reveal: interior_pov
+- Reveal purpose: Tekanan udara tidak terlihat; potongan kabin menunjukkan di mana perubahan itu terjadi
+- Geometry visibility: Mesh potongan kabin khusus; gelombang digambar sebagai garis skematis, bukan asap
 - Scale transition: NOT SPECIFIED — inspect source assets and storyboard
-- Transition to next (CapCut): Potong ke dalam iPhone
-- Spatial anchor: Pembatas yang sama dari SHOT_02
+- Transition to next (CapCut): Potong ke makro lubang mikrofon
+- Spatial anchor: Setir dan dasbor
 - Technical QA: NOT SPECIFIED — inspect source assets and storyboard
 
 ## Agent instructions

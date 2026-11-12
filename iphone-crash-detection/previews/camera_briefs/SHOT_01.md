@@ -1,7 +1,7 @@
 # CAMERA BRIEF — SHOT_01
 
 - Narrative beat: hook
-- Voice-over: iPhone ini sedang ikut naik mobil.
+- Voice-over: ipon ieu sedang ikut naik mobil.
 - New information: Situasi sehari-hari: iPhone ada di dalam mobil yang bergerak
 - Subject: Mobil melaju di jalan, iPhone di dudukan dasbor
 - Angle: wide-established — Menunjukkan mobil, jalan, dan pembatas di depan dalam satu bingkai

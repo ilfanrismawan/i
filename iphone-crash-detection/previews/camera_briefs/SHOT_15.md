@@ -1,23 +1,23 @@
 # CAMERA BRIEF — SHOT_15
 
-- Narrative beat: ending
-- Voice-over: Tapi iPhone tidak bisa mengenali semua tabrakan.
-- New information: Batasan penting: fitur ini tidak mendeteksi semua tabrakan
-- Subject: Mobil terparkir di tepi jalan, iPhone di dasbor terlihat kecil
-- Angle: wide-established — Bingkai lebar yang tenang untuk kalimat batasan
-- Shot size: wide
-- Movement: locked — Diam supaya pesan batasan tidak tertutup gerakan
-- Movement start: Mobil diam di tepi jalan
-- Movement end: Tidak berubah
-- Focal target: CAR_Body
+- Narrative beat: result
+- Voice-over: Kalau tandanya cocok, iPhone membunyikan alarm dan bertanya dulu.
+- New information: iPhone memberi alarm dan peringatan 10 detik sebelum bertindak
+- Subject: Layar iPhone di dasbor: peringatan dengan hitung mundur dan tombol batal (UI diegetik)
+- Angle: front-on — Tampak depan agar peringatan dan hitungan terbaca
+- Shot size: close
+- Movement: locked — Diam; yang berubah adalah angka di layar
+- Movement start: Peringatan muncul
+- Movement end: Hitungan berjalan
+- Focal target: PHONE_Screen
 - Camera rig: CAM_SHOT_15
 - Lens or ortho: tentukan saat blocking
 - Virtual reveal: none
 - Reveal purpose: NOT SPECIFIED — inspect source assets and storyboard
 - Geometry visibility: NOT SPECIFIED — inspect source assets and storyboard
 - Scale transition: NOT SPECIFIED — inspect source assets and storyboard
-- Transition to next (CapCut): Potong ke iPhone tembus pandang
-- Spatial anchor: Jalan dan pembatas dari SHOT_01
+- Transition to next (CapCut): Potong ke sudut rendah iPhone
+- Spatial anchor: Dasbor dari SHOT_03
 - Technical QA: NOT SPECIFIED — inspect source assets and storyboard
 
 ## Agent instructions

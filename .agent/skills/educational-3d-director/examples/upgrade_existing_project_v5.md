@@ -1,0 +1,5 @@
+# Upgrade existing 3D project to v5 camera system
+
+Codex: `$educational-3d-director` or Claude: `/educational-3d-director`
+
+Audit the existing storyboard and assets. I want ambitious virtual camera work that would be impractical or impossible in live action, but only where it reveals new information. Read `references/virtual-cinematography.md`. For each shot, specify: narration beat, new reveal, focal target, shot size, camera angle, camera movement, whether an impossible virtual technique is used, required cutaway/scale/visibility strategy, move start/end and motivated CapCut transition. Preserve all existing source assets. Avoid repeated orbit/zoom and monotony; add new shots only when they show a genuinely new idea. Use a contact sheet, test short camera motion with Eevee, 9:16 frame checks, and per-shot MP4 handoff to CapCut Pro. No Blender/FFmpeg stitching, no baked overlays, no claim of automated CapCut editing. Run both storyboard validators. **First complete only the plan and camera briefs; no rendering yet.**

@@ -1,0 +1,30 @@
+{
+  "fps": 30,
+  "total_frames": 1800,
+  "shots": [
+    {
+      "id": "SHOT_01",
+      "start_frame": 1,
+      "end_frame": 210,
+      "purpose": "Hook: everyday familiar moment",
+      "narration": "What is happening behind the visible action?",
+      "assets": [
+        "hero_object"
+      ],
+      "camera": "CAM_Hero",
+      "animation": "slow dolly and first causal action",
+      "fact_status": "planning placeholder",
+      "qa": "hero readable in 9:16",
+      "camera_angle_reason": "Show human scale before revealing hidden process",
+      "camera_movement_reason": "Hold long enough to establish the action",
+      "focal_target": "hero_object",
+      "movement_start": "full object in frame",
+      "movement_end": "fingertip/interaction ready for cut",
+      "reveal_technique": "none",
+      "reveal_reason": "",
+      "geometry_visibility_strategy": "",
+      "scale_transition_strategy": "",
+      "orientation_anchor": "familiar object silhouette"
+    }
+  ]
+}
