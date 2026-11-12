@@ -91,6 +91,72 @@
       "generator": "../iphone-facts/scripts/build_round2_assets.py",
       "previews": "previews/",
       "source_sha256": "32b859e791475d079f1f2723486af937b012a1b805d00ca9dafe40d0c4c412f9"
+    },
+    {
+      "id": "phone_17pro_body_adapter",
+      "path": "assets/phone_17pro_body_adapter.blend",
+      "collection": "ASSET_PhoneVapor",
+      "dependencies": [
+        "iphone-crash-detection: phone_exterior + phone_interior_concept (appended copies)",
+        "vapor_chamber_concept"
+      ],
+      "units": "metres, real scale; same axes as phone_exterior; chamber plate sits toward the back (+Y), view it from the back",
+      "anchors": {
+        "root": "PVC_Root",
+        "phone": "PHONE_Root",
+        "interior": "PHONEINT_Root",
+        "chamber": "ANCHOR_VaporChamber",
+        "chip": "ANCHOR_ChipUnderChamber",
+        "camera_target": "CAM_Target_PhoneVapor"
+      },
+      "controls": {
+        "chamber_glow": {
+          "type": "float",
+          "min": 0,
+          "max": 10,
+          "default": 0,
+          "on": "PVC_Root",
+          "affects": "chamber plate emission"
+        },
+        "hot_end": {
+          "type": "float",
+          "min": 0,
+          "max": 10,
+          "default": 0,
+          "on": "PVC_Root",
+          "affects": "red zone over the chip"
+        },
+        "cool_end": {
+          "type": "float",
+          "min": 0,
+          "max": 10,
+          "default": 0,
+          "on": "PVC_Root",
+          "affects": "blue zone at the far end"
+        },
+        "shell_opacity": {
+          "type": "float",
+          "min": 0,
+          "max": 1,
+          "default": 1,
+          "on": "PHONE_Root",
+          "affects": "inherited"
+        },
+        "glow_processor": {
+          "type": "float",
+          "min": 0,
+          "max": 30,
+          "default": 0,
+          "on": "PHONEINT_Root",
+          "affects": "inherited from phone_interior_concept"
+        }
+      },
+      "notes": "Generic phone and interior, not the real iPhone 17 Pro. Apple states the chamber is laser-welded into the aluminium unibody and moves heat from the A19 Pro; its outline and position here are illustrative.",
+      "phase": "context-assets",
+      "status": "complete",
+      "generator": "../iphone-facts/scripts/build_context_assets.py",
+      "previews": "previews/",
+      "source_sha256": "13f2b078920e9f9b2a18d85b8887a08a2297e05447aa9f0e5b07457956b843aa"
     }
   ],
   "reuse_do_not_recreate": [
@@ -100,8 +166,6 @@
     "iphone-crash-detection/assets/phone_interior_concept.blend",
     "iphone-crash-detection/scripts/asset_lib.py (imported, not copied)"
   ],
-  "pending_assets": [
-    "phone_17pro_body_adapter (only if the existing iPhone model cannot stand in)"
-  ],
+  "pending_assets": [],
   "sourced_facts": "Apple (iPhone 17 Pro): deionized water is sealed inside an Apple-designed vapor chamber laser-welded into the aluminum unibody; heat from A19 Pro moves into the unibody and is spread; up to 40 percent better sustained performance."
 }
